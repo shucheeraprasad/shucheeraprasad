@@ -2,9 +2,6 @@
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Cinzel+Decorative&weight=700&size=18&duration=4000&pause=1500&color=A855F7&center=true&vCenter=true&width=800&lines=🌿+Where+ancient+forests+whisper+to+the+stars...;🔭+Painting+the+cosmos+with+Python+and+light;🌊+The+ocean+tides+mirror+the+pull+of+galaxies;🌌+Every+pixel+of+sky+holds+a+thousand+suns;🌸+Rooted+in+Earth%2C+reaching+for+infinity" alt="Typing SVG" />
-
-<br/>
 
 [![Visits](https://komarev.com/ghpvc/?username=shucheeraprasad&color=db2777&style=for-the-badge&label=✦+SOULS+WHO+LOOKED+UP)](https://github.com/shucheeraprasad)
 [![Followers](https://img.shields.io/github/followers/shucheeraprasad?style=for-the-badge&color=7c3aed&logo=github&label=FOLLOWERS)](https://github.com/shucheeraprasad)
