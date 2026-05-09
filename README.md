@@ -1,4 +1,4 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:3b0764,20:6d28d9,40:a21caf,60:db2777,80:be185d,100:3b0764&height=280&section=header&text=✦%20SHUCHEERA%20PRASAD%20✦&fontSize=54&fontColor=ffffff&fontAlignY=44&desc=Astronomer%20·%20Developer%20·%20Child%20of%20the%20Cosmos&descAlignY=64&descSize=18&descColor=f9a8d4&animation=twinkling&strokeWidth=0"/>
+<img width="100%" src="banner.svg"/>
 
 <div align="center">
 
