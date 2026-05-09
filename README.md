@@ -1,6 +1,19 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:3b0764,20:6d28d9,40:a21caf,60:db2777,80:be185d,100:3b0764&height=280&section=header&text=✦%20SHUCHEERA%20PRASAD%20✦&fontSize=54&fontColor=ffffff&fontAlignY=44&desc=Astronomer%20·%20Developer%20·%20Child%20of%20the%20Cosmos&descAlignY=64&descSize=18&descColor=f9a8d4&animation=fadeIn&stroke=f0abfc&strokeWidth=2"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:3b0764,20:6d28d9,40:a21caf,60:db2777,80:be185d,100:3b0764&height=280&section=header&text=✦%20SHUCHEERA%20PRASAD%20✦&fontSize=54&fontColor=ffffff&fontAlignY=44&desc=Astronomer%20·%20Developer%20·%20Child%20of%20the%20Cosmos&descAlignY=64&descSize=18&descColor=f9a8d4&animation=twinkling&strokeWidth=0"/>
 
 <div align="center">
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:3b0764,50:a21caf,100:db2777&height=3&section=header"/>
+
+<br/>
+
+<!-- Animated galaxy GIF -->
+<img src="https://media.giphy.com/media/3o7TKoWXm3okO1kgHC/giphy.gif" width="80" height="80"/>
+&nbsp;&nbsp;
+<img src="https://media.giphy.com/media/26BRzozg4TCBXv6QU/giphy.gif" width="80" height="80"/>
+&nbsp;&nbsp;
+<img src="https://media.giphy.com/media/3o7TKoWXm3okO1kgHC/giphy.gif" width="80" height="80"/>
+
+<br/><br/>
 
 <img src="https://readme-typing-svg.demolab.com?font=Cinzel+Decorative&weight=700&size=18&duration=4000&pause=1500&color=A855F7&center=true&vCenter=true&width=800&lines=🌿+Where+ancient+forests+whisper+to+the+stars...;🔭+Painting+the+cosmos+with+Python+and+light;🌊+The+ocean+tides+mirror+the+pull+of+galaxies;🌌+Every+pixel+of+sky+holds+a+thousand+suns;🌸+Rooted+in+Earth%2C+reaching+for+infinity" alt="Typing SVG" />
 
