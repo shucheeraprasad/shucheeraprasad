@@ -1,4 +1,4 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:ffffff,25:f3e8ff,50:fce7f3,75:f3e8ff,100:ffffff&height=260&section=header&text=✦%20SHUCHEERA%20PRASAD%20✦&fontSize=52&fontColor=7c3aed&fontAlignY=42&desc=Astronomer%20·%20Developer%20·%20Child%20of%20the%20Cosmos&descAlignY=62&descSize=18&descColor=db2777&animation=fadeIn&stroke=a855f7&strokeWidth=1"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:3b0764,20:6d28d9,40:a21caf,60:db2777,80:be185d,100:3b0764&height=280&section=header&text=✦%20SHUCHEERA%20PRASAD%20✦&fontSize=54&fontColor=ffffff&fontAlignY=44&desc=Astronomer%20·%20Developer%20·%20Child%20of%20the%20Cosmos&descAlignY=64&descSize=18&descColor=f9a8d4&animation=fadeIn&stroke=f0abfc&strokeWidth=2"/>
 
 <div align="center">
 
@@ -190,4 +190,4 @@
 
 </div>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:ffffff,25:f3e8ff,50:fce7f3,75:f3e8ff,100:ffffff&height=160&section=footer&animation=fadeIn"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:3b0764,20:6d28d9,40:a21caf,60:db2777,80:be185d,100:3b0764&height=160&section=footer&animation=fadeIn"/>
