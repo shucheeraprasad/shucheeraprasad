@@ -1,8 +1,8 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0e27,25:0d2137,50:0a3d2e,75:0d2137,100:0a0e27&height=220&section=header&text=✦%20SHUCHEERA%20PRASAD%20✦&fontSize=42&fontColor=a8d8b9&fontAlignY=45&desc=Astronomer%20·%20Developer%20·%20Nature%20Wanderer&descAlignY=65&descSize=17&descColor=7ecba1&animation=fadeIn"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:020818,15:0a1628,30:0d3b2e,50:1a5c3a,70:0d3b2e,85:0a1628,100:020818&height=260&section=header&text=✦%20SHUCHEERA%20PRASAD%20✦&fontSize=52&fontColor=a8ffce&fontAlignY=42&desc=Astronomer%20·%20Developer%20·%20Child%20of%20the%20Cosmos&descAlignY=62&descSize=18&descColor=52b788&animation=fadeIn&stroke=52b788&strokeWidth=1"/>
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Crimson+Text&weight=600&size=24&duration=3500&pause=1200&color=A8D8B9&center=true&vCenter=true&width=750&lines=🌿+Where+the+forest+meets+the+stars...;🔭+Mapping+the+night+sky+one+frame+at+a+time;🌊+Oceans+below%2C+galaxies+above;🌱+Nature+shaped+the+Earth%2C+code+shapes+the+future;🌌+Lost+between+nebulae+and+morning+dew" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Cinzel+Decorative&weight=700&size=18&duration=4000&pause=1500&color=52B788&center=true&vCenter=true&width=800&lines=🌿+Where+ancient+forests+whisper+to+the+stars...;🔭+Painting+the+cosmos+with+Python+and+light;🌊+The+ocean+tides+mirror+the+pull+of+galaxies;🌌+Every+pixel+of+sky+holds+a+thousand+suns;🌿+Rooted+in+Earth%2C+reaching+for+infinity" alt="Typing SVG" />
 
 </div>
 
@@ -11,45 +11,46 @@
 <div align="center">
 
 ```
-                         . * .  * . * . * .  * .
-              *    .           *        .            *    .
-         .         *    ✦           ✦        *            .
-              ✦                 🌕                    ✦
-         .         *      .          .        *            .
-                *      ✦      *   .      ✦         *
-                      .    *            .      *
-    🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲
-   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                    ·  ✦  ·   · ✧ ·   · ✦ ·   ✧  ·   ✦ ·
+          ·  ✧  ·        ·  ✦  ·    ✧    ·   ✦   ·  ✧   ·   ✦
+      ✦        ·    ✧         ·    ✦   ·    ✧  ·      ✦      ·
+         ·   ✦   ·   ORION  ·  ✧  · CASSIOPEIA ·  ✦  ·  ✧
+      ·     ✧    ·      ·    ✦       ·    ✧   ·      ✦    ·
+   ✦    ·     ✦     ·     ✧     ·      ✦    ·    ✧     ·    ✦
+ ·   ✧    ·      ✦    ·     ·  ✦   ·    ✧   ·   ✦   ·   ✧   ·
+══════════════════════════════════════════════════════════════════
+  🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲
+  🌲🌲🌲🌲🌲🌲🌲  🏔️ THE OBSERVATORY  🏔️  🌲🌲🌲🌲🌲🌲🌲
+══════════════════════════════════════════════════════════════════
+      ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
 </div>
 
 ---
 
-## 🌿 `$ cat about.me`
+<img align="right" width="390" src="https://github-readme-stats.vercel.app/api?username=shucheeraprasad&show_icons=true&hide_border=true&bg_color=020818&title_color=a8ffce&icon_color=52b788&text_color=b7e4c7&ring_color=1b4332&theme=dark&border_radius=20&custom_title=✦%20Star%20Log%20✦"/>
 
-<img align="right" width="360" src="https://github-readme-stats.vercel.app/api?username=shucheeraprasad&show_icons=true&hide_border=true&bg_color=0a0e27&title_color=a8d8b9&icon_color=7ecba1&text_color=c9d8c5&ring_color=2d6a4f&theme=dark&border_radius=16"/>
+### 🌿 `> loading soul.json`
 
-```python
-# ─────────────────────────────────────────────
-#   A soul somewhere between the trees and stars
-# ─────────────────────────────────────────────
-
-identity = {
-    "name"      : "Shucheera Prasad",
-    "by_day"    : "Developer & Astronomer",
-    "by_night"  : "Stargazer & Deep-sky Imager 🔭",
-    "elements"  : ["🌿 Earth", "💧 Water", "🔥 Fire", "✨ Cosmos"],
-
-    "craft"     : {
-        "python"  : "Automating the universe",
-        "js"      : "Breathing life into web",
-        "java"    : "Building solid foundations",
-    },
-
-    "currently" : "📡 Wide-Field Astronomical Imager",
-    "dream"     : "Photograph every Messier object 🌌",
-    "mantra"    : "Look up more than you look down 🌠",
+```json
+{
+  "name"      : "Shucheera Prasad",
+  "archetype" : "Forest Astronomer 🔭🌿",
+  "coordinates": {
+    "soul"    : "Between the pines & Pleiades",
+    "body"    : "Planet Earth 🌍",
+    "mind"    : "Somewhere in the Andromeda"
+  },
+  "elements"  : {
+    "🌿 Flora"  : "Grounded, patient, ever-growing",
+    "🌊 Water"  : "Fluid, reflective, deep",
+    "🔥 Fire"   : "Stellar fusion & CPU cores",
+    "🌌 Ether"  : "The void between galaxies"
+  },
+  "mission"   : "📡 Wide-Field Astronomical Imager",
+  "north_star": "Photograph the entire Messier catalogue",
+  "ritual"    : "Forest walk → telescope → code → repeat"
 }
 ```
 
@@ -57,75 +58,103 @@ identity = {
 
 ---
 
-## 🌌 Constellation of Skills
+## 🌌 The Constellation Map
 
 <div align="center">
 
 ```
-        Orion Belt of Languages          The Southern Cross of Tools
-        ━━━━━━━━━━━━━━━━━━━━━━━         ━━━━━━━━━━━━━━━━━━━━━━━━━━
-          ★  Python                           ✦  Git & GitHub
-        ★   ★  JavaScript                   ✦     ✦  Three.js
-          ★  Java                              ✦  OpenCV
-                                                  Linux
+  PYTHON          JS            JAVA         OPENCV
+    ★              ✦             ◈             ✧
+    |╲            /|╲           /|            /|
+    | ╲          / | ╲         / |           / |
+    |  ╲        /  |  ╲       /  |          /  |
+  REST  ╲    Three  |  Git   /  Linux      /  CV
+   API   ╲   .js    |        |              |
+    ◈    ╲  ✦      ◈        ★             ✧
+          ╲        |
+         GitHub   VSCode
+           ★        ✦
 ```
 
 <br/>
 
-<img src="https://skillicons.dev/icons?i=python,js,java,threejs,opencv,git,github,linux,vscode&theme=dark&perline=9" />
+<img src="https://skillicons.dev/icons?i=python,js,java,threejs,opencv,git,github,linux,vscode,bash&theme=dark&perline=10"/>
+
+<br/><br/>
+
+<!-- Skill bars as aurora beams -->
+| Skill | Intensity | Aurora Level |
+|-------|-----------|-------------|
+| 🐍 Python | `████████████████░░░░` | ██ Bright Green |
+| ☕ Java | `██████████████░░░░░░` | ██ Cyan Beam |
+| 🌐 JavaScript | `████████████░░░░░░░░` | ██ Teal Wave |
+| 🔭 Astrophotography | `████████████████████` | ██ Full Aurora |
+| 🤖 AI / Computer Vision | `█████████░░░░░░░░░░░` | ██ Emerging |
 
 </div>
 
 ---
 
-## 🔭 The Observatory
+## 🛰️ Mission Control
 
 <div align="center">
 
 ```
-  ╭──────────────────────────────────────────────────────────────╮
-  │                                                              │
-  │   🌑  NEW MOON      Current Mission Log                      │
-  │                                                              │
-  │   PROJECT  ›  Wide-Field Astronomical Imager                 │
-  │   PHASE    ›  ████████████████████░░░░  82% complete         │
-  │   TARGET   ›  Capturing Milky Way panoramas                  │
-  │   TOOLS    ›  Python · OpenCV · Raspberry Pi · FITS          │
-  │                                                              │
-  │   🌿 Side Quest  ›  Connecting nature trails to star maps    │
-  │                                                              │
-  ╰──────────────────────────────────────────────────────────────╯
+╔══════════════════════════════════════════════════════════════════╗
+║  🌑 ——— 🌒 ——— 🌓 ——— 🌔 ——— 🌕 ——— 🌖 ——— 🌗 ——— 🌘 ——— 🌑  ║
+║                   LUNAR MISSION TRACKER                          ║
+╠══════════════════════════════════════════════════════════════════╣
+║                                                                  ║
+║   🔭  PROJECT   wide-field-astronomical-imager                   ║
+║   🌿  STATUS    ████████████████████░░░░  85% to first light     ║
+║   🌊  STACK     Python · OpenCV · FITS · NumPy · Matplotlib      ║
+║   ✦   TARGET    Milky Way core panorama + Messier objects        ║
+║   🏔️  TERRAIN   Mountain dark-sky sites preferred               ║
+║                                                                  ║
+║   🌿  NEXT OBS  New moon window · No light pollution             ║
+║   📡  SIGNAL    All systems nominal                              ║
+╚══════════════════════════════════════════════════════════════════╝
 ```
 
-[![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=shucheeraprasad&repo=wide-field-astronomical-imager&hide_border=true&bg_color=0a0e27&title_color=a8d8b9&icon_color=7ecba1&text_color=c9d8c5&border_radius=16)](https://github.com/shucheeraprasad/wide-field-astronomical-imager)
+[![wide-field-astronomical-imager](https://github-readme-stats.vercel.app/api/pin/?username=shucheeraprasad&repo=wide-field-astronomical-imager&hide_border=true&bg_color=020818&title_color=a8ffce&icon_color=52b788&text_color=b7e4c7&border_radius=16)](https://github.com/shucheeraprasad/wide-field-astronomical-imager)
 
 </div>
 
 ---
 
-## 🌊 Tides of Activity
+## 🌊 Tidal Activity — The Rhythm of My Commits
 
 <div align="center">
 
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=shucheeraprasad&theme=react-dark&bg_color=0a0e27&color=a8d8b9&line=2d6a4f&point=7ecba1&area_color=1b4332&area=true&hide_border=true&radius=8)](https://github.com/shucheeraprasad)
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=shucheeraprasad&theme=react-dark&bg_color=020818&color=a8ffce&line=52b788&point=b7e4c7&area_color=1b4332&area=true&hide_border=true&radius=8&custom_title=🌿%20Contribution%20Ecosystem)](https://github.com/shucheeraprasad)
 
 </div>
 
 ---
 
-## 📊 Celestial Stats
+## 📊 Cosmic Analytics
 
 <div align="center">
 
-<img height="190" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shucheeraprasad&layout=donut&hide_border=true&bg_color=0a0e27&title_color=a8d8b9&text_color=c9d8c5&border_radius=16&langs_count=6"/>
+<img height="200" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shucheeraprasad&layout=donut&hide_border=true&bg_color=020818&title_color=a8ffce&text_color=b7e4c7&border_radius=20&langs_count=6&custom_title=Language%20Nebula"/>
 
-<img height="190" src="https://streak-stats.demolab.com?user=shucheeraprasad&hide_border=true&background=0a0e27&stroke=2d6a4f&ring=a8d8b9&fire=7ecba1&currStreakNum=a8d8b9&sideNums=a8d8b9&currStreakLabel=4a7c59&sideLabels=4a7c59&dates=4a7c59&border_radius=16"/>
+<img height="200" src="https://streak-stats.demolab.com?user=shucheeraprasad&hide_border=true&background=020818&stroke=1b4332&ring=a8ffce&fire=52b788&currStreakNum=a8ffce&sideNums=a8ffce&currStreakLabel=52b788&sideLabels=52b788&dates=52b788&border_radius=20"/>
 
 </div>
 
 ---
 
-## 🐍 The Forest Snake Weaves Through My Contributions
+## 🏆 Celestial Honours
+
+<div align="center">
+
+![Trophies](https://github-profile-trophy.vercel.app/?username=shucheeraprasad&theme=matrix&no-frame=true&margin-w=12&column=4&rank=SECRET,SSS,SS,S,AAA,AA,A,B)
+
+</div>
+
+---
+
+## 🐍 The Serpens Constellation Moves Through My Work
 
 <div align="center">
 
@@ -139,31 +168,26 @@ identity = {
 
 ---
 
-## 🏆 Stars Earned
-
-<div align="center">
-
-![Trophies](https://github-profile-trophy.vercel.app/?username=shucheeraprasad&theme=matrix&no-frame=true&margin-w=10&column=4)
-
-</div>
-
----
-
 <div align="center">
 
 ```
-    🌿  ·  ·  🌸  ·  ·  ✦  ·  🌙  ·  ✦  ·  ·  🌸  ·  ·  🌿
+  🌿 · · · 🌸 · · · ✦ · · · 🌙 · · · ✦ · · · 🌸 · · · 🌿
+       🌊 · · · ✧ · · · 🔭 · · · ✧ · · · 🌊
+  🌿 · · · 🌸 · · · ✦ · · · 🌙 · · · ✦ · · · 🌸 · · · 🌿
 ```
 
-*"In every walk with nature, one receives far more than he seeks.*
-*Look up — the stars are nature's oldest wild frontier."*
+*"The nitrogen in our DNA, the calcium in our teeth, the iron in our blood,*
+*the carbon in our apple pies — were made in the interiors of collapsing stars.*
+**We are made of star-stuff. We are a way for the cosmos to know itself."***
+
+*— Carl Sagan, Cosmos*
 
 ```
-    🌿  ·  ·  🌸  ·  ·  ✦  ·  🌙  ·  ✦  ·  ·  🌸  ·  ·  🌿
+  🌿 · · · 🌸 · · · ✦ · · · 🌙 · · · ✦ · · · 🌸 · · · 🌿
 ```
 
-[![Visitor Badge](https://komarev.com/ghpvc/?username=shucheeraprasad&color=2d6a4f&style=flat-square&label=wanderers+visited)](https://github.com/shucheeraprasad)
+[![Wanderers](https://komarev.com/ghpvc/?username=shucheeraprasad&color=52b788&style=for-the-badge&label=✦+SOULS+WHO+LOOKED+UP)](https://github.com/shucheeraprasad)
 
 </div>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0e27,25:0d2137,50:0a3d2e,75:0d2137,100:0a0e27&height=140&section=footer&text=&animation=fadeIn"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:020818,20:0a1628,45:0d3b2e,65:1a5c3a,80:0d3b2e,100:020818&height=160&section=footer&text=&animation=fadeIn"/>
