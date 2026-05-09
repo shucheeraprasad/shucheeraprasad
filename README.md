@@ -1,168 +1,149 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=venom&color=0:000000,30:0d0221,60:0a0a2e,100:000000&height=200&section=header&text=SHUCHEERA%20PRASAD&fontSize=50&fontColor=58a6ff&fontAlignY=55&desc=Developer%20%7C%20Astronomer%20%7C%20Builder&descAlignY=75&descSize=18&descColor=8b949e&animation=twinkling&stroke=1f6feb&strokeWidth=2" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0e27,25:0d2137,50:0a3d2e,75:0d2137,100:0a0e27&height=220&section=header&text=✦%20SHUCHEERA%20PRASAD%20✦&fontSize=42&fontColor=a8d8b9&fontAlignY=45&desc=Astronomer%20·%20Developer%20·%20Nature%20Wanderer&descAlignY=65&descSize=17&descColor=7ecba1&animation=fadeIn"/>
 
 <div align="center">
 
-```
-╔══════════════════════════════════════════════════════════════╗
-║  INITIALIZING PROFILE...                                     ║
-║  > Loading astronomical data...          [████████████] 100% ║
-║  > Compiling projects...                 [████████████] 100% ║
-║  > Rendering universe...                 [████████████] 100% ║
-║  STATUS: ONLINE ✦ SYSTEM: NOMINAL ✦ STARS FOUND: ∞          ║
-╚══════════════════════════════════════════════════════════════╝
-```
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2500&pause=800&color=58A6FF&center=true&vCenter=true&multiline=false&width=700&lines=🔭+Mapping+the+cosmos+one+pixel+at+a+time;🤖+Building+AI+that+thinks+in+3D;☕+Turning+coffee+into+REST+APIs;🌌+Where+astronomy+meets+code;⚡+Wide-field+imaging+the+night+sky" alt="Typing SVG" />
-
-<br/>
-
-[![Visits](https://komarev.com/ghpvc/?username=shucheeraprasad&color=0e75b6&style=for-the-badge&label=VISITORS)](https://github.com/shucheeraprasad)
-[![GitHub followers](https://img.shields.io/github/followers/shucheeraprasad?style=for-the-badge&color=58a6ff&logo=github&label=FOLLOWERS)](https://github.com/shucheeraprasad)
-[![Stars](https://img.shields.io/github/stars/shucheeraprasad?style=for-the-badge&color=ffd700&logo=github&label=STARS)](https://github.com/shucheeraprasad)
+<img src="https://readme-typing-svg.demolab.com?font=Crimson+Text&weight=600&size=24&duration=3500&pause=1200&color=A8D8B9&center=true&vCenter=true&width=750&lines=🌿+Where+the+forest+meets+the+stars...;🔭+Mapping+the+night+sky+one+frame+at+a+time;🌊+Oceans+below%2C+galaxies+above;🌱+Nature+shaped+the+Earth%2C+code+shapes+the+future;🌌+Lost+between+nebulae+and+morning+dew" alt="Typing SVG" />
 
 </div>
 
 ---
 
-<img align="right" width="380" src="https://github-readme-stats.vercel.app/api?username=shucheeraprasad&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=f0883e&text_color=c9d1d9&border_radius=12" />
+<div align="center">
 
-### `$ whoami`
+```
+                         . * .  * . * . * .  * .
+              *    .           *        .            *    .
+         .         *    ✦           ✦        *            .
+              ✦                 🌕                    ✦
+         .         *      .          .        *            .
+                *      ✦      *   .      ✦         *
+                      .    *            .      *
+    🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
+
+</div>
+
+---
+
+## 🌿 `$ cat about.me`
+
+<img align="right" width="360" src="https://github-readme-stats.vercel.app/api?username=shucheeraprasad&show_icons=true&hide_border=true&bg_color=0a0e27&title_color=a8d8b9&icon_color=7ecba1&text_color=c9d8c5&ring_color=2d6a4f&theme=dark&border_radius=16"/>
 
 ```python
-#!/usr/bin/env python3
-# ══════════════════════════════════════════
-#   PROFILE MANIFEST — shucheeraprasad.py
-# ══════════════════════════════════════════
+# ─────────────────────────────────────────────
+#   A soul somewhere between the trees and stars
+# ─────────────────────────────────────────────
 
-class Human:
-    name     = "Shucheera Prasad"
-    location = "🌏 Earth (for now)"
+identity = {
+    "name"      : "Shucheera Prasad",
+    "by_day"    : "Developer & Astronomer",
+    "by_night"  : "Stargazer & Deep-sky Imager 🔭",
+    "elements"  : ["🌿 Earth", "💧 Water", "🔥 Fire", "✨ Cosmos"],
 
-    stack = {
-        "🔭 Science"  : ["Astronomy", "Astrophotography"],
-        "🧠 AI / ML"  : ["Computer Vision", "Neural Nets"],
-        "💻 Code"     : ["Python", "JavaScript", "Java"],
-        "🎨 Frontend" : ["Three.js", "WebGL", "HTML/CSS"],
-        "⚙️ Backend"  : ["REST APIs", "Java Spring"],
-    }
+    "craft"     : {
+        "python"  : "Automating the universe",
+        "js"      : "Breathing life into web",
+        "java"    : "Building solid foundations",
+    },
 
-    currently = "📡 Wide-Field Astronomical Imager"
-    obsession = "Making telescopes talk to computers"
-
-    def mission(self):
-        return "Bridge the gap between the cosmos 🌌 and code 💻"
+    "currently" : "📡 Wide-Field Astronomical Imager",
+    "dream"     : "Photograph every Messier object 🌌",
+    "mantra"    : "Look up more than you look down 🌠",
+}
 ```
 
 <br clear="right"/>
 
 ---
 
-## ⚡ Arsenal
-
-<div align="center">
-
-<table>
-<tr>
-<td align="center" width="110">
-<img src="https://techstack-generator.vercel.app/python-icon.svg" width="55"/><br/><sub><b>Python</b></sub>
-</td>
-<td align="center" width="110">
-<img src="https://techstack-generator.vercel.app/js-icon.svg" width="55"/><br/><sub><b>JavaScript</b></sub>
-</td>
-<td align="center" width="110">
-<img src="https://techstack-generator.vercel.app/java-icon.svg" width="55"/><br/><sub><b>Java</b></sub>
-</td>
-<td align="center" width="110">
-<img src="https://techstack-generator.vercel.app/restapi-icon.svg" width="55"/><br/><sub><b>REST API</b></sub>
-</td>
-<td align="center" width="110">
-<img src="https://techstack-generator.vercel.app/github-icon.svg" width="55"/><br/><sub><b>GitHub</b></sub>
-</td>
-</tr>
-<tr>
-<td align="center" width="110">
-<img src="https://skillicons.dev/icons?i=threejs" width="55"/><br/><sub><b>Three.js</b></sub>
-</td>
-<td align="center" width="110">
-<img src="https://skillicons.dev/icons?i=git" width="55"/><br/><sub><b>Git</b></sub>
-</td>
-<td align="center" width="110">
-<img src="https://skillicons.dev/icons?i=vscode" width="55"/><br/><sub><b>VS Code</b></sub>
-</td>
-<td align="center" width="110">
-<img src="https://skillicons.dev/icons?i=linux" width="55"/><br/><sub><b>Linux</b></sub>
-</td>
-<td align="center" width="110">
-<img src="https://skillicons.dev/icons?i=opencv" width="55"/><br/><sub><b>OpenCV</b></sub>
-</td>
-</tr>
-</table>
-
-</div>
-
----
-
-## 🛰️ Featured Mission
+## 🌌 Constellation of Skills
 
 <div align="center">
 
 ```
-┌─────────────────────────────────────────────────────────────────┐
-│  🔭  WIDE-FIELD ASTRONOMICAL IMAGER                             │
-│  ─────────────────────────────────────────────────────────────  │
-│  STATUS   ██████████████████░░  90% operational                 │
-│  LANG     Python  |  OpenCV  |  Astronomy libs                  │
-│  MISSION  Capture & process wide-field night-sky images         │
-│  OUTPUT   High-res stellar maps & deep-sky composites           │
-└─────────────────────────────────────────────────────────────────┘
+        Orion Belt of Languages          The Southern Cross of Tools
+        ━━━━━━━━━━━━━━━━━━━━━━━         ━━━━━━━━━━━━━━━━━━━━━━━━━━
+          ★  Python                           ✦  Git & GitHub
+        ★   ★  JavaScript                   ✦     ✦  Three.js
+          ★  Java                              ✦  OpenCV
+                                                  Linux
 ```
 
-[![Repo](https://github-readme-stats.vercel.app/api/pin/?username=shucheeraprasad&repo=wide-field-astronomical-imager&theme=radical&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=f0883e)](https://github.com/shucheeraprasad/wide-field-astronomical-imager)
+<br/>
+
+<img src="https://skillicons.dev/icons?i=python,js,java,threejs,opencv,git,github,linux,vscode&theme=dark&perline=9" />
 
 </div>
 
 ---
 
-## 📊 Deep Space Stats
+## 🔭 The Observatory
 
 <div align="center">
 
-<img height="195" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shucheeraprasad&layout=donut&theme=radical&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&border_radius=12&langs_count=6"/>
-<img height="195" src="https://streak-stats.demolab.com?user=shucheeraprasad&theme=radical&hide_border=true&background=0d1117&stroke=58a6ff&ring=f0883e&fire=f0883e&currStreakNum=58a6ff&sideNums=58a6ff&currStreakLabel=8b949e&sideLabels=8b949e&dates=8b949e&border_radius=12"/>
+```
+  ╭──────────────────────────────────────────────────────────────╮
+  │                                                              │
+  │   🌑  NEW MOON      Current Mission Log                      │
+  │                                                              │
+  │   PROJECT  ›  Wide-Field Astronomical Imager                 │
+  │   PHASE    ›  ████████████████████░░░░  82% complete         │
+  │   TARGET   ›  Capturing Milky Way panoramas                  │
+  │   TOOLS    ›  Python · OpenCV · Raspberry Pi · FITS          │
+  │                                                              │
+  │   🌿 Side Quest  ›  Connecting nature trails to star maps    │
+  │                                                              │
+  ╰──────────────────────────────────────────────────────────────╯
+```
+
+[![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=shucheeraprasad&repo=wide-field-astronomical-imager&hide_border=true&bg_color=0a0e27&title_color=a8d8b9&icon_color=7ecba1&text_color=c9d8c5&border_radius=16)](https://github.com/shucheeraprasad/wide-field-astronomical-imager)
 
 </div>
 
 ---
 
-## 🏆 Achievements Unlocked
+## 🌊 Tides of Activity
 
 <div align="center">
 
-![Trophies](https://github-profile-trophy.vercel.app/?username=shucheeraprasad&theme=radical&no-frame=true&margin-w=8&margin-h=8&column=4&rank=SECRET,SSS,SS,S,AAA,AA,A,B)
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=shucheeraprasad&theme=react-dark&bg_color=0a0e27&color=a8d8b9&line=2d6a4f&point=7ecba1&area_color=1b4332&area=true&hide_border=true&radius=8)](https://github.com/shucheeraprasad)
 
 </div>
 
 ---
 
-## 🌠 Contribution Nebula
+## 📊 Celestial Stats
 
 <div align="center">
 
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=shucheeraprasad&theme=react-dark&bg_color=0d1117&color=58a6ff&line=1f6feb&point=f0883e&area=true&hide_border=true)](https://github.com/shucheeraprasad)
+<img height="190" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shucheeraprasad&layout=donut&hide_border=true&bg_color=0a0e27&title_color=a8d8b9&text_color=c9d8c5&border_radius=16&langs_count=6"/>
+
+<img height="190" src="https://streak-stats.demolab.com?user=shucheeraprasad&hide_border=true&background=0a0e27&stroke=2d6a4f&ring=a8d8b9&fire=7ecba1&currStreakNum=a8d8b9&sideNums=a8d8b9&currStreakLabel=4a7c59&sideLabels=4a7c59&dates=4a7c59&border_radius=16"/>
 
 </div>
 
 ---
 
-## 🐍 Watch the Snake Devour My Contributions
+## 🐍 The Forest Snake Weaves Through My Contributions
 
 <div align="center">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shucheeraprasad/shucheeraprasad/output/github-contribution-grid-snake-dark.svg"/>
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/shucheeraprasad/shucheeraprasad/output/github-contribution-grid-snake.svg"/>
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/shucheeraprasad/shucheeraprasad/output/github-contribution-grid-snake-dark.svg"/>
+  <img alt="contribution snake" src="https://raw.githubusercontent.com/shucheeraprasad/shucheeraprasad/output/github-contribution-grid-snake-dark.svg"/>
 </picture>
+
+</div>
+
+---
+
+## 🏆 Stars Earned
+
+<div align="center">
+
+![Trophies](https://github-profile-trophy.vercel.app/?username=shucheeraprasad&theme=matrix&no-frame=true&margin-w=10&column=4)
 
 </div>
 
@@ -171,12 +152,18 @@ class Human:
 <div align="center">
 
 ```
-  ✦  ·  ·  ·  ✦  ·  ·  ✦  ·  ·  ·  ✦  ·  ✦  ·  ·  ·  ✦  ·  ·  ✦
-  "Two possibilities exist: either we are alone in the Universe
-   or we are not. Both are equally terrifying." — Arthur C. Clarke
-  ✦  ·  ·  ·  ✦  ·  ·  ✦  ·  ·  ·  ✦  ·  ✦  ·  ·  ·  ✦  ·  ·  ✦
+    🌿  ·  ·  🌸  ·  ·  ✦  ·  🌙  ·  ✦  ·  ·  🌸  ·  ·  🌿
 ```
+
+*"In every walk with nature, one receives far more than he seeks.*
+*Look up — the stars are nature's oldest wild frontier."*
+
+```
+    🌿  ·  ·  🌸  ·  ·  ✦  ·  🌙  ·  ✦  ·  ·  🌸  ·  ·  🌿
+```
+
+[![Visitor Badge](https://komarev.com/ghpvc/?username=shucheeraprasad&color=2d6a4f&style=flat-square&label=wanderers+visited)](https://github.com/shucheeraprasad)
 
 </div>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=venom&color=0:000000,30:0a0a2e,60:0d0221,100:000000&height=120&section=footer&text=&animation=twinkling"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0e27,25:0d2137,50:0a3d2e,75:0d2137,100:0a0e27&height=140&section=footer&text=&animation=fadeIn"/>
