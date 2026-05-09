@@ -1,8 +1,13 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:020818,15:0a1628,30:0d3b2e,50:1a5c3a,70:0d3b2e,85:0a1628,100:020818&height=260&section=header&text=✦%20SHUCHEERA%20PRASAD%20✦&fontSize=52&fontColor=a8ffce&fontAlignY=42&desc=Astronomer%20·%20Developer%20·%20Child%20of%20the%20Cosmos&descAlignY=62&descSize=18&descColor=52b788&animation=fadeIn&stroke=52b788&strokeWidth=1"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0221,20:2d0057,45:6a0572,65:c9184a,80:2d0057,100:0d0221&height=260&section=header&text=✦%20SHUCHEERA%20PRASAD%20✦&fontSize=52&fontColor=ff79c6&fontAlignY=42&desc=Astronomer%20·%20Developer%20·%20Child%20of%20the%20Cosmos&descAlignY=62&descSize=18&descColor=da77f2&animation=fadeIn&stroke=c9184a&strokeWidth=1"/>
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Cinzel+Decorative&weight=700&size=18&duration=4000&pause=1500&color=52B788&center=true&vCenter=true&width=800&lines=🌿+Where+ancient+forests+whisper+to+the+stars...;🔭+Painting+the+cosmos+with+Python+and+light;🌊+The+ocean+tides+mirror+the+pull+of+galaxies;🌌+Every+pixel+of+sky+holds+a+thousand+suns;🌿+Rooted+in+Earth%2C+reaching+for+infinity" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Cinzel+Decorative&weight=700&size=18&duration=4000&pause=1500&color=DA77F2&center=true&vCenter=true&width=800&lines=🌿+Where+ancient+forests+whisper+to+the+stars...;🔭+Painting+the+cosmos+with+Python+and+light;🌊+The+ocean+tides+mirror+the+pull+of+galaxies;🌌+Every+pixel+of+sky+holds+a+thousand+suns;🌸+Rooted+in+Earth%2C+reaching+for+infinity" alt="Typing SVG" />
+
+<br/>
+
+[![Visits](https://komarev.com/ghpvc/?username=shucheeraprasad&color=c9184a&style=for-the-badge&label=✦+SOULS+WHO+LOOKED+UP)](https://github.com/shucheeraprasad)
+[![Followers](https://img.shields.io/github/followers/shucheeraprasad?style=for-the-badge&color=bd93f9&logo=github&label=FOLLOWERS)](https://github.com/shucheeraprasad)
 
 </div>
 
@@ -22,16 +27,15 @@
   🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲
   🌲🌲🌲🌲🌲🌲🌲  🏔️ THE OBSERVATORY  🏔️  🌲🌲🌲🌲🌲🌲🌲
 ══════════════════════════════════════════════════════════════════
-      ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
 </div>
 
 ---
 
-<img align="right" width="390" src="https://github-readme-stats.vercel.app/api?username=shucheeraprasad&show_icons=true&hide_border=true&bg_color=020818&title_color=a8ffce&icon_color=52b788&text_color=b7e4c7&ring_color=1b4332&theme=dark&border_radius=20&custom_title=✦%20Star%20Log%20✦"/>
+<img align="right" width="390" src="https://github-readme-stats.vercel.app/api?username=shucheeraprasad&show_icons=true&hide_border=true&bg_color=0d0221&title_color=ff79c6&icon_color=da77f2&text_color=e0aaff&ring_color=c9184a&theme=dark&border_radius=20"/>
 
-### 🌿 `> loading soul.json`
+### 🌸 `> loading soul.json`
 
 ```json
 {
@@ -82,14 +86,13 @@
 
 <br/><br/>
 
-<!-- Skill bars as aurora beams -->
-| Skill | Intensity | Aurora Level |
-|-------|-----------|-------------|
-| 🐍 Python | `████████████████░░░░` | ██ Bright Green |
-| ☕ Java | `██████████████░░░░░░` | ██ Cyan Beam |
-| 🌐 JavaScript | `████████████░░░░░░░░` | ██ Teal Wave |
-| 🔭 Astrophotography | `████████████████████` | ██ Full Aurora |
-| 🤖 AI / Computer Vision | `█████████░░░░░░░░░░░` | ██ Emerging |
+| Skill | Aurora Intensity |
+|-------|-----------------|
+| 🐍 Python | `████████████████░░░░` 80% |
+| ☕ Java | `██████████████░░░░░░` 70% |
+| 🌐 JavaScript | `████████████░░░░░░░░` 60% |
+| 🔭 Astrophotography | `████████████████████` 100% |
+| 🤖 AI / Computer Vision | `█████████░░░░░░░░░░░` 45% |
 
 </div>
 
@@ -111,22 +114,22 @@
 ║   ✦   TARGET    Milky Way core panorama + Messier objects        ║
 ║   🏔️  TERRAIN   Mountain dark-sky sites preferred               ║
 ║                                                                  ║
-║   🌿  NEXT OBS  New moon window · No light pollution             ║
+║   🌸  NEXT OBS  New moon window · No light pollution             ║
 ║   📡  SIGNAL    All systems nominal                              ║
 ╚══════════════════════════════════════════════════════════════════╝
 ```
 
-[![wide-field-astronomical-imager](https://github-readme-stats.vercel.app/api/pin/?username=shucheeraprasad&repo=wide-field-astronomical-imager&hide_border=true&bg_color=020818&title_color=a8ffce&icon_color=52b788&text_color=b7e4c7&border_radius=16)](https://github.com/shucheeraprasad/wide-field-astronomical-imager)
+[![wide-field-astronomical-imager](https://github-readme-stats.vercel.app/api/pin/?username=shucheeraprasad&repo=wide-field-astronomical-imager&hide_border=true&bg_color=0d0221&title_color=ff79c6&icon_color=da77f2&text_color=e0aaff&border_radius=16)](https://github.com/shucheeraprasad/wide-field-astronomical-imager)
 
 </div>
 
 ---
 
-## 🌊 Tidal Activity — The Rhythm of My Commits
+## 🌊 Tidal Activity
 
 <div align="center">
 
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=shucheeraprasad&theme=react-dark&bg_color=020818&color=a8ffce&line=52b788&point=b7e4c7&area_color=1b4332&area=true&hide_border=true&radius=8&custom_title=🌿%20Contribution%20Ecosystem)](https://github.com/shucheeraprasad)
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=shucheeraprasad&theme=react-dark&bg_color=0d0221&color=ff79c6&line=c9184a&point=da77f2&area_color=6a0572&area=true&hide_border=true&radius=8)](https://github.com/shucheeraprasad)
 
 </div>
 
@@ -136,9 +139,9 @@
 
 <div align="center">
 
-<img height="200" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shucheeraprasad&layout=donut&hide_border=true&bg_color=020818&title_color=a8ffce&text_color=b7e4c7&border_radius=20&langs_count=6&custom_title=Language%20Nebula"/>
+<img height="195" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shucheeraprasad&layout=donut&hide_border=true&bg_color=0d0221&title_color=ff79c6&text_color=e0aaff&border_radius=20&langs_count=6"/>
 
-<img height="200" src="https://streak-stats.demolab.com?user=shucheeraprasad&hide_border=true&background=020818&stroke=1b4332&ring=a8ffce&fire=52b788&currStreakNum=a8ffce&sideNums=a8ffce&currStreakLabel=52b788&sideLabels=52b788&dates=52b788&border_radius=20"/>
+<img height="195" src="https://streak-stats.demolab.com?user=shucheeraprasad&hide_border=true&background=0d0221&stroke=6a0572&ring=ff79c6&fire=c9184a&currStreakNum=ff79c6&sideNums=ff79c6&currStreakLabel=da77f2&sideLabels=da77f2&dates=da77f2&border_radius=20"/>
 
 </div>
 
@@ -148,13 +151,13 @@
 
 <div align="center">
 
-![Trophies](https://github-profile-trophy.vercel.app/?username=shucheeraprasad&theme=matrix&no-frame=true&margin-w=12&column=4&rank=SECRET,SSS,SS,S,AAA,AA,A,B)
+![Trophies](https://github-profile-trophy.vercel.app/?username=shucheeraprasad&theme=dracula&no-frame=true&margin-w=12&column=4)
 
 </div>
 
 ---
 
-## 🐍 The Serpens Constellation Moves Through My Work
+## 🌠 Contribution Nebula
 
 <div align="center">
 
@@ -171,23 +174,21 @@
 <div align="center">
 
 ```
-  🌿 · · · 🌸 · · · ✦ · · · 🌙 · · · ✦ · · · 🌸 · · · 🌿
-       🌊 · · · ✧ · · · 🔭 · · · ✧ · · · 🌊
-  🌿 · · · 🌸 · · · ✦ · · · 🌙 · · · ✦ · · · 🌸 · · · 🌿
+  🌸 · · · ✦ · · · 🌙 · · · ✦ · · · 🌸 · · · ✦ · · · 🌸
+       💜 · · · ✧ · · · 🔭 · · · ✧ · · · 💜
+  🌸 · · · ✦ · · · 🌙 · · · ✦ · · · 🌸 · · · ✦ · · · 🌸
 ```
 
 *"The nitrogen in our DNA, the calcium in our teeth, the iron in our blood,*
 *the carbon in our apple pies — were made in the interiors of collapsing stars.*
 **We are made of star-stuff. We are a way for the cosmos to know itself."***
 
-*— Carl Sagan, Cosmos*
+*— Carl Sagan*
 
 ```
-  🌿 · · · 🌸 · · · ✦ · · · 🌙 · · · ✦ · · · 🌸 · · · 🌿
+  🌸 · · · ✦ · · · 🌙 · · · ✦ · · · 🌸 · · · ✦ · · · 🌸
 ```
-
-[![Wanderers](https://komarev.com/ghpvc/?username=shucheeraprasad&color=52b788&style=for-the-badge&label=✦+SOULS+WHO+LOOKED+UP)](https://github.com/shucheeraprasad)
 
 </div>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:020818,20:0a1628,45:0d3b2e,65:1a5c3a,80:0d3b2e,100:020818&height=160&section=footer&text=&animation=fadeIn"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0221,20:2d0057,45:6a0572,65:c9184a,80:2d0057,100:0d0221&height=160&section=footer&animation=fadeIn"/>
