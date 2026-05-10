@@ -11,30 +11,75 @@
   <radialGradient id="n6" cx="88%" cy="38%" r="40%"><stop offset="0%" stop-color="#1d4ed8" stop-opacity=".30"/><stop offset="100%" stop-color="#1d4ed8" stop-opacity="0"/></radialGradient>
   <radialGradient id="n7" cx="96%" cy="20%" r="35%"><stop offset="0%" stop-color="#0891b2" stop-opacity=".25"/><stop offset="100%" stop-color="#0891b2" stop-opacity="0"/></radialGradient>
   <radialGradient id="n8" cx="8%"  cy="95%" r="40%"><stop offset="0%" stop-color="#c2410c" stop-opacity=".50"/><stop offset="100%" stop-color="#c2410c" stop-opacity="0"/></radialGradient>
+
+  <!-- Beam -->
   <linearGradient id="beamg" x1="0" y1="0" x2="1" y2="0">
     <stop offset="0%" stop-color="#f472b6" stop-opacity="0"/>
     <stop offset="50%" stop-color="#f472b6" stop-opacity=".6"/>
     <stop offset="100%" stop-color="#f472b6" stop-opacity="0"/>
   </linearGradient>
+  <linearGradient id="cbg" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%"   stop-color="#67e8f9" stop-opacity=".95"/>
+    <stop offset="100%" stop-color="#67e8f9" stop-opacity="0"/>
+  </linearGradient>
+
+  <!-- Name text gradient -->
   <linearGradient id="tg" x1="164" x2="736" y1="0" y2="0" gradientUnits="userSpaceOnUse">
     <stop offset="0%"   stop-color="#ffffff"/>
     <stop offset="40%"  stop-color="#f9a8d4"/>
     <stop offset="70%"  stop-color="#c084fc"/>
     <stop offset="100%" stop-color="#818cf8"/>
   </linearGradient>
-  <linearGradient id="discg" x1="0" y1="0" x2="0" y2="1">
-    <stop offset="0%"   stop-color="#6d28d9"/>
-    <stop offset="100%" stop-color="#1e0042"/>
+
+  <!-- ── METALLIC SAUCER GRADIENTS ── -->
+  <!-- Main disc: top=silver, mid=steel, bottom=dark -->
+  <linearGradient id="discMetal" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%"   stop-color="#dde3ec"/>
+    <stop offset="18%"  stop-color="#a8b4c4"/>
+    <stop offset="42%"  stop-color="#607080"/>
+    <stop offset="72%"  stop-color="#1e2d3d"/>
+    <stop offset="100%" stop-color="#0d1520"/>
   </linearGradient>
-  <radialGradient id="domeg" cx="38%" cy="28%" r="65%">
+  <!-- Bevel highlight on upper face -->
+  <linearGradient id="discBevel" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%"   stop-color="#eaf0f8" stop-opacity=".65"/>
+    <stop offset="100%" stop-color="#8899aa" stop-opacity="0"/>
+  </linearGradient>
+  <!-- Reflection streak across top -->
+  <linearGradient id="discShine" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%"   stop-color="#fff" stop-opacity="0"/>
+    <stop offset="28%"  stop-color="#fff" stop-opacity=".55"/>
+    <stop offset="52%"  stop-color="#fff" stop-opacity=".10"/>
+    <stop offset="68%"  stop-color="#fff" stop-opacity=".35"/>
+    <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
+  </linearGradient>
+  <!-- Iridescent color overlay -->
+  <linearGradient id="discColor" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%"   stop-color="#8b5cf6" stop-opacity=".45"/>
+    <stop offset="38%"  stop-color="#06b6d4" stop-opacity=".28"/>
+    <stop offset="60%"  stop-color="#a855f7" stop-opacity=".28"/>
+    <stop offset="100%" stop-color="#ec4899" stop-opacity=".38"/>
+  </linearGradient>
+  <!-- Underside rim darkening -->
+  <linearGradient id="rimBottom" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%"   stop-color="#334155" stop-opacity="0"/>
+    <stop offset="60%"  stop-color="#0f172a" stop-opacity=".85"/>
+    <stop offset="100%" stop-color="#000"    stop-opacity=".5"/>
+  </linearGradient>
+  <!-- Dome collar -->
+  <linearGradient id="domeCollar" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%"   stop-color="#64748b"/>
+    <stop offset="100%" stop-color="#1e293b"/>
+  </linearGradient>
+  <!-- Dome glass -->
+  <radialGradient id="domeGlass" cx="37%" cy="27%" r="65%">
     <stop offset="0%"   stop-color="#7dd3fc"/>
-    <stop offset="45%"  stop-color="#0e7490"/>
-    <stop offset="100%" stop-color="#082f49"/>
+    <stop offset="35%"  stop-color="#0e7490"/>
+    <stop offset="75%"  stop-color="#0c4a6e"/>
+    <stop offset="100%" stop-color="#042f4b"/>
   </radialGradient>
-  <linearGradient id="cbg" x1="0" y1="0" x2="0" y2="1">
-    <stop offset="0%"   stop-color="#67e8f9" stop-opacity=".95"/>
-    <stop offset="100%" stop-color="#67e8f9" stop-opacity="0"/>
-  </linearGradient>
+
+  <!-- Filters -->
   <filter id="bloom" x="-80%" y="-80%" width="260%" height="260%">
     <feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
   </filter>
@@ -50,26 +95,25 @@
 
   <style>
     /* ── 9 s infinite loop ── */
-
     @keyframes shipfly {
-      0%  {transform:translateY(-230px);opacity:0}
+      0%  {transform:translateY(-240px);opacity:0}
       5%  {opacity:1}
       20% {transform:translateY(0)}
       77% {transform:translateY(0)}
-      88% {transform:translateY(-230px);opacity:1}
+      88% {transform:translateY(-240px);opacity:1}
       94% {opacity:0}
-      100%{transform:translateY(-230px);opacity:0}
+      100%{transform:translateY(-240px);opacity:0}
     }
     #ship{animation:shipfly 9s cubic-bezier(.4,0,.2,1) infinite}
 
-    @keyframes rl{0%,100%{opacity:.45}50%{opacity:1}}
-    .rl0{animation:rl .40s ease-in-out infinite 0.00s}
-    .rl1{animation:rl .40s ease-in-out infinite 0.06s}
-    .rl2{animation:rl .40s ease-in-out infinite 0.13s}
-    .rl3{animation:rl .40s ease-in-out infinite 0.19s}
-    .rl4{animation:rl .40s ease-in-out infinite 0.26s}
-    .rl5{animation:rl .40s ease-in-out infinite 0.33s}
-    .rl6{animation:rl .40s ease-in-out infinite 0.40s}
+    @keyframes rl{0%,100%{opacity:.40}50%{opacity:1}}
+    .rl0{animation:rl .42s ease-in-out infinite 0.00s}
+    .rl1{animation:rl .42s ease-in-out infinite 0.07s}
+    .rl2{animation:rl .42s ease-in-out infinite 0.14s}
+    .rl3{animation:rl .42s ease-in-out infinite 0.21s}
+    .rl4{animation:rl .42s ease-in-out infinite 0.28s}
+    .rl5{animation:rl .42s ease-in-out infinite 0.35s}
+    .rl6{animation:rl .42s ease-in-out infinite 0.42s}
 
     @keyframes beamon{0%,21%{opacity:0}23%{opacity:.85}78%{opacity:.85}85%{opacity:0}100%{opacity:0}}
     .cb{animation:beamon 9s ease infinite}
@@ -78,27 +122,28 @@
     #bscan{animation:bscan .75s ease-in infinite,beamon 9s ease infinite}
 
     /* ── LETTER KEYFRAMES ──────────────────────────────────────────────────
-       Each letter spawns at the BEAM (x=450) and flies to its final x,y.
-       offsetX = 450 - letter_x  (positive = letter is LEFT of beam)
-       p_start (3% stagger from 24%): 24,27,30,33,36,39,42,45,48,51,54,57,60,63,66
-       Letter x positions: 164,198,240,282,316,358,392,426,460,516,550,584,622,656,694
-       offsetX values:     286,252,210,168,134, 92, 58, 24,-10,-66,-100,-134,-172,-206,-244
+       Letters spawn at beam (x=450), tiny scale(0.15), fly to seat + grow to scale(1).
+       offsetX = 450 - letter_x
+       Letter x: 164,198,240,282,316,358,392,426,460,516,550,584,622,656,694
+       offsetX:  286,252,210,168,134, 92, 58, 24,-10,-66,-100,-134,-172,-206,-244
+       Timing: appear p+1, arrive p+6, bounce p+8, settle p+9
+       p_start: 24,27,30,33,36,39,42,45,48,51,54,57,60,63,66
     ── */
-    @keyframes dr0 {0%,23%{transform:translate(286px,-82px);opacity:0}25%{opacity:1}28%{transform:translate(0,4px)}29%{transform:translate(0,-2px)}30%{transform:translate(0,0)}80%{transform:translate(0,0);opacity:1}87%{opacity:0}89%,100%{transform:translate(286px,-82px);opacity:0}}
-    @keyframes dr1 {0%,26%{transform:translate(252px,-82px);opacity:0}28%{opacity:1}31%{transform:translate(0,4px)}32%{transform:translate(0,-2px)}33%{transform:translate(0,0)}80%{transform:translate(0,0);opacity:1}87%{opacity:0}89%,100%{transform:translate(252px,-82px);opacity:0}}
-    @keyframes dr2 {0%,29%{transform:translate(210px,-82px);opacity:0}31%{opacity:1}34%{transform:translate(0,4px)}35%{transform:translate(0,-2px)}36%{transform:translate(0,0)}80%{transform:translate(0,0);opacity:1}87%{opacity:0}89%,100%{transform:translate(210px,-82px);opacity:0}}
-    @keyframes dr3 {0%,32%{transform:translate(168px,-82px);opacity:0}34%{opacity:1}37%{transform:translate(0,4px)}38%{transform:translate(0,-2px)}39%{transform:translate(0,0)}80%{transform:translate(0,0);opacity:1}87%{opacity:0}89%,100%{transform:translate(168px,-82px);opacity:0}}
-    @keyframes dr4 {0%,35%{transform:translate(134px,-82px);opacity:0}37%{opacity:1}40%{transform:translate(0,4px)}41%{transform:translate(0,-2px)}42%{transform:translate(0,0)}80%{transform:translate(0,0);opacity:1}87%{opacity:0}89%,100%{transform:translate(134px,-82px);opacity:0}}
-    @keyframes dr5 {0%,38%{transform:translate(92px,-82px);opacity:0}40%{opacity:1}43%{transform:translate(0,4px)}44%{transform:translate(0,-2px)}45%{transform:translate(0,0)}80%{transform:translate(0,0);opacity:1}87%{opacity:0}89%,100%{transform:translate(92px,-82px);opacity:0}}
-    @keyframes dr6 {0%,41%{transform:translate(58px,-82px);opacity:0}43%{opacity:1}46%{transform:translate(0,4px)}47%{transform:translate(0,-2px)}48%{transform:translate(0,0)}80%{transform:translate(0,0);opacity:1}87%{opacity:0}89%,100%{transform:translate(58px,-82px);opacity:0}}
-    @keyframes dr7 {0%,44%{transform:translate(24px,-82px);opacity:0}46%{opacity:1}49%{transform:translate(0,4px)}50%{transform:translate(0,-2px)}51%{transform:translate(0,0)}80%{transform:translate(0,0);opacity:1}87%{opacity:0}89%,100%{transform:translate(24px,-82px);opacity:0}}
-    @keyframes dr8 {0%,47%{transform:translate(-10px,-82px);opacity:0}49%{opacity:1}52%{transform:translate(0,4px)}53%{transform:translate(0,-2px)}54%{transform:translate(0,0)}80%{transform:translate(0,0);opacity:1}87%{opacity:0}89%,100%{transform:translate(-10px,-82px);opacity:0}}
-    @keyframes dr9 {0%,50%{transform:translate(-66px,-82px);opacity:0}52%{opacity:1}55%{transform:translate(0,4px)}56%{transform:translate(0,-2px)}57%{transform:translate(0,0)}80%{transform:translate(0,0);opacity:1}87%{opacity:0}89%,100%{transform:translate(-66px,-82px);opacity:0}}
-    @keyframes dr10{0%,53%{transform:translate(-100px,-82px);opacity:0}55%{opacity:1}58%{transform:translate(0,4px)}59%{transform:translate(0,-2px)}60%{transform:translate(0,0)}80%{transform:translate(0,0);opacity:1}87%{opacity:0}89%,100%{transform:translate(-100px,-82px);opacity:0}}
-    @keyframes dr11{0%,56%{transform:translate(-134px,-82px);opacity:0}58%{opacity:1}61%{transform:translate(0,4px)}62%{transform:translate(0,-2px)}63%{transform:translate(0,0)}80%{transform:translate(0,0);opacity:1}87%{opacity:0}89%,100%{transform:translate(-134px,-82px);opacity:0}}
-    @keyframes dr12{0%,59%{transform:translate(-172px,-82px);opacity:0}61%{opacity:1}64%{transform:translate(0,4px)}65%{transform:translate(0,-2px)}66%{transform:translate(0,0)}80%{transform:translate(0,0);opacity:1}87%{opacity:0}89%,100%{transform:translate(-172px,-82px);opacity:0}}
-    @keyframes dr13{0%,62%{transform:translate(-206px,-82px);opacity:0}64%{opacity:1}67%{transform:translate(0,4px)}68%{transform:translate(0,-2px)}69%{transform:translate(0,0)}80%{transform:translate(0,0);opacity:1}87%{opacity:0}89%,100%{transform:translate(-206px,-82px);opacity:0}}
-    @keyframes dr14{0%,65%{transform:translate(-244px,-82px);opacity:0}67%{opacity:1}70%{transform:translate(0,4px)}71%{transform:translate(0,-2px)}72%{transform:translate(0,0)}80%{transform:translate(0,0);opacity:1}87%{opacity:0}89%,100%{transform:translate(-244px,-82px);opacity:0}}
+    @keyframes dr0 {0%,23%{transform:translate(286px,-82px) scale(0.15);opacity:0}25%{transform:translate(286px,-82px) scale(0.15);opacity:1}30%{transform:translate(0,0) scale(1.08)}32%{transform:translate(0,0) scale(0.96)}33%{transform:translate(0,0) scale(1)}80%{transform:translate(0,0) scale(1);opacity:1}87%{opacity:0}89%,100%{transform:translate(286px,-82px) scale(0.15);opacity:0}}
+    @keyframes dr1 {0%,26%{transform:translate(252px,-82px) scale(0.15);opacity:0}28%{transform:translate(252px,-82px) scale(0.15);opacity:1}33%{transform:translate(0,0) scale(1.08)}35%{transform:translate(0,0) scale(0.96)}36%{transform:translate(0,0) scale(1)}80%{transform:translate(0,0) scale(1);opacity:1}87%{opacity:0}89%,100%{transform:translate(252px,-82px) scale(0.15);opacity:0}}
+    @keyframes dr2 {0%,29%{transform:translate(210px,-82px) scale(0.15);opacity:0}31%{transform:translate(210px,-82px) scale(0.15);opacity:1}36%{transform:translate(0,0) scale(1.08)}38%{transform:translate(0,0) scale(0.96)}39%{transform:translate(0,0) scale(1)}80%{transform:translate(0,0) scale(1);opacity:1}87%{opacity:0}89%,100%{transform:translate(210px,-82px) scale(0.15);opacity:0}}
+    @keyframes dr3 {0%,32%{transform:translate(168px,-82px) scale(0.15);opacity:0}34%{transform:translate(168px,-82px) scale(0.15);opacity:1}39%{transform:translate(0,0) scale(1.08)}41%{transform:translate(0,0) scale(0.96)}42%{transform:translate(0,0) scale(1)}80%{transform:translate(0,0) scale(1);opacity:1}87%{opacity:0}89%,100%{transform:translate(168px,-82px) scale(0.15);opacity:0}}
+    @keyframes dr4 {0%,35%{transform:translate(134px,-82px) scale(0.15);opacity:0}37%{transform:translate(134px,-82px) scale(0.15);opacity:1}42%{transform:translate(0,0) scale(1.08)}44%{transform:translate(0,0) scale(0.96)}45%{transform:translate(0,0) scale(1)}80%{transform:translate(0,0) scale(1);opacity:1}87%{opacity:0}89%,100%{transform:translate(134px,-82px) scale(0.15);opacity:0}}
+    @keyframes dr5 {0%,38%{transform:translate(92px,-82px) scale(0.15);opacity:0}40%{transform:translate(92px,-82px) scale(0.15);opacity:1}45%{transform:translate(0,0) scale(1.08)}47%{transform:translate(0,0) scale(0.96)}48%{transform:translate(0,0) scale(1)}80%{transform:translate(0,0) scale(1);opacity:1}87%{opacity:0}89%,100%{transform:translate(92px,-82px) scale(0.15);opacity:0}}
+    @keyframes dr6 {0%,41%{transform:translate(58px,-82px) scale(0.15);opacity:0}43%{transform:translate(58px,-82px) scale(0.15);opacity:1}48%{transform:translate(0,0) scale(1.08)}50%{transform:translate(0,0) scale(0.96)}51%{transform:translate(0,0) scale(1)}80%{transform:translate(0,0) scale(1);opacity:1}87%{opacity:0}89%,100%{transform:translate(58px,-82px) scale(0.15);opacity:0}}
+    @keyframes dr7 {0%,44%{transform:translate(24px,-82px) scale(0.15);opacity:0}46%{transform:translate(24px,-82px) scale(0.15);opacity:1}51%{transform:translate(0,0) scale(1.08)}53%{transform:translate(0,0) scale(0.96)}54%{transform:translate(0,0) scale(1)}80%{transform:translate(0,0) scale(1);opacity:1}87%{opacity:0}89%,100%{transform:translate(24px,-82px) scale(0.15);opacity:0}}
+    @keyframes dr8 {0%,47%{transform:translate(-10px,-82px) scale(0.15);opacity:0}49%{transform:translate(-10px,-82px) scale(0.15);opacity:1}54%{transform:translate(0,0) scale(1.08)}56%{transform:translate(0,0) scale(0.96)}57%{transform:translate(0,0) scale(1)}80%{transform:translate(0,0) scale(1);opacity:1}87%{opacity:0}89%,100%{transform:translate(-10px,-82px) scale(0.15);opacity:0}}
+    @keyframes dr9 {0%,50%{transform:translate(-66px,-82px) scale(0.15);opacity:0}52%{transform:translate(-66px,-82px) scale(0.15);opacity:1}57%{transform:translate(0,0) scale(1.08)}59%{transform:translate(0,0) scale(0.96)}60%{transform:translate(0,0) scale(1)}80%{transform:translate(0,0) scale(1);opacity:1}87%{opacity:0}89%,100%{transform:translate(-66px,-82px) scale(0.15);opacity:0}}
+    @keyframes dr10{0%,53%{transform:translate(-100px,-82px) scale(0.15);opacity:0}55%{transform:translate(-100px,-82px) scale(0.15);opacity:1}60%{transform:translate(0,0) scale(1.08)}62%{transform:translate(0,0) scale(0.96)}63%{transform:translate(0,0) scale(1)}80%{transform:translate(0,0) scale(1);opacity:1}87%{opacity:0}89%,100%{transform:translate(-100px,-82px) scale(0.15);opacity:0}}
+    @keyframes dr11{0%,56%{transform:translate(-134px,-82px) scale(0.15);opacity:0}58%{transform:translate(-134px,-82px) scale(0.15);opacity:1}63%{transform:translate(0,0) scale(1.08)}65%{transform:translate(0,0) scale(0.96)}66%{transform:translate(0,0) scale(1)}80%{transform:translate(0,0) scale(1);opacity:1}87%{opacity:0}89%,100%{transform:translate(-134px,-82px) scale(0.15);opacity:0}}
+    @keyframes dr12{0%,59%{transform:translate(-172px,-82px) scale(0.15);opacity:0}61%{transform:translate(-172px,-82px) scale(0.15);opacity:1}66%{transform:translate(0,0) scale(1.08)}68%{transform:translate(0,0) scale(0.96)}69%{transform:translate(0,0) scale(1)}80%{transform:translate(0,0) scale(1);opacity:1}87%{opacity:0}89%,100%{transform:translate(-172px,-82px) scale(0.15);opacity:0}}
+    @keyframes dr13{0%,62%{transform:translate(-206px,-82px) scale(0.15);opacity:0}64%{transform:translate(-206px,-82px) scale(0.15);opacity:1}69%{transform:translate(0,0) scale(1.08)}71%{transform:translate(0,0) scale(0.96)}72%{transform:translate(0,0) scale(1)}80%{transform:translate(0,0) scale(1);opacity:1}87%{opacity:0}89%,100%{transform:translate(-206px,-82px) scale(0.15);opacity:0}}
+    @keyframes dr14{0%,65%{transform:translate(-244px,-82px) scale(0.15);opacity:0}67%{transform:translate(-244px,-82px) scale(0.15);opacity:1}72%{transform:translate(0,0) scale(1.08)}74%{transform:translate(0,0) scale(0.96)}75%{transform:translate(0,0) scale(1)}80%{transform:translate(0,0) scale(1);opacity:1}87%{opacity:0}89%,100%{transform:translate(-244px,-82px) scale(0.15);opacity:0}}
 
     .L{font-family:Georgia,'Times New Roman',serif;font-size:52px;font-weight:700;fill:url(#tg);filter:url(#tglow);transform-box:fill-box;transform-origin:center}
     .L0 {animation:dr0  9s ease-out infinite}
@@ -125,6 +170,7 @@
   </style>
 </defs>
 
+<!-- Nebula background -->
 <rect width="900" height="320" fill="url(#basebg)"/>
 <rect width="900" height="320" fill="url(#n1)"/>
 <rect width="900" height="320" fill="url(#n2)"/>
@@ -135,8 +181,10 @@
 <rect width="900" height="320" fill="url(#n7)"/>
 <rect width="900" height="320" fill="url(#n8)"/>
 
+<!-- Background nebula ray -->
 <line id="db" x1="-20" y1="310" x2="520" y2="-30" stroke="url(#beamg)" stroke-width="12" filter="url(#bloom)"/>
 
+<!-- Stars -->
 <circle cx="45"  cy="18"  r="1.5" fill="#fff" opacity=".70" style="animation:tw1 3.2s ease-in-out infinite"/>
 <circle cx="120" cy="8"   r="1.0" fill="#fff" opacity=".50"/>
 <circle cx="180" cy="28"  r="0.8" fill="#f9a8d4" opacity=".60" style="animation:tw2 2.8s ease-in-out infinite"/>
@@ -159,31 +207,72 @@
 <circle cx="160" cy="200" r="1.1" fill="#c4b5fd" opacity=".40" style="animation:tw1 3.8s ease-in-out infinite"/>
 <circle cx="855" cy="200" r="1.0" fill="#f9a8d4" opacity=".40" style="animation:tw3 2.6s ease-in-out infinite"/>
 
-<!-- cargo beam  x=450, y=90→175 -->
+<!-- Cargo beam  x=450, y=90→175 -->
 <rect class="cb" x="446" y="90" width="8"  height="85" rx="4"  fill="url(#cbg)" filter="url(#glow)"/>
 <rect class="cb" x="440" y="90" width="20" height="85" rx="10" fill="url(#cbg)" opacity=".22" filter="url(#bloom)"/>
 <circle id="bscan" cx="450" cy="90" r="4" fill="#67e8f9" filter="url(#glow)"/>
 
-<!-- saucer  disc-centre=(450,77)  disc-bottom=y90  dome-top=y33 -->
+<!-- ── METALLIC UFO SAUCER  disc-centre=(450,77)  ── -->
 <g id="ship">
-  <ellipse cx="450" cy="91" rx="32" ry="5"  fill="#a855f7" opacity=".55" filter="url(#sg)"/>
-  <ellipse cx="450" cy="77" rx="56" ry="13" fill="url(#discg)"/>
-  <path d="M 396,70 C 402,63 498,63 504,70" stroke="#9333ea" stroke-width=".8" fill="none" opacity=".5"/>
-  <ellipse cx="450" cy="77" rx="56" ry="13" fill="none" stroke="#7c3aed" stroke-width="1.2" opacity=".7"/>
-  <ellipse cx="450" cy="55" rx="27" ry="22" fill="url(#domeg)"/>
-  <ellipse cx="445" cy="50" rx="13" ry="9"  fill="#67e8f9" opacity=".30"/>
-  <path d="M 436,43 C 440,37 451,37 456,42" stroke="#a5f3fc" stroke-width="1.5" fill="none" opacity=".55"/>
-  <ellipse cx="450" cy="55" rx="27" ry="22" fill="none" stroke="#0e7490" stroke-width=".8" opacity=".5"/>
-  <circle cx="396" cy="74" r="3.0" fill="#ec4899" class="rl0" filter="url(#sg)"/>
-  <circle cx="414" cy="71" r="2.5" fill="#a855f7" class="rl1" filter="url(#sg)"/>
-  <circle cx="432" cy="70" r="2.5" fill="#67e8f9" class="rl2" filter="url(#sg)"/>
-  <circle cx="450" cy="69" r="2.5" fill="#f472b6" class="rl3" filter="url(#sg)"/>
-  <circle cx="468" cy="70" r="2.5" fill="#67e8f9" class="rl4" filter="url(#sg)"/>
-  <circle cx="486" cy="71" r="2.5" fill="#a855f7" class="rl5" filter="url(#sg)"/>
-  <circle cx="504" cy="74" r="3.0" fill="#ec4899" class="rl6" filter="url(#sg)"/>
+  <!-- Underside glow -->
+  <ellipse cx="450" cy="89" rx="108" ry="11" fill="#7c3aed" opacity=".22" filter="url(#bloom)"/>
+  <ellipse cx="450" cy="89" rx="70"  ry="6"  fill="#67e8f9" opacity=".10" filter="url(#bloom)"/>
+
+  <!-- Main disc body — wide, flat, metallic -->
+  <ellipse cx="450" cy="77" rx="102" ry="13" fill="url(#discMetal)"/>
+
+  <!-- Underside rim shading -->
+  <ellipse cx="450" cy="83" rx="100" ry="9"  fill="url(#rimBottom)"/>
+
+  <!-- Top bevel highlight -->
+  <ellipse cx="450" cy="71" rx="92"  ry="7"  fill="url(#discBevel)"/>
+
+  <!-- Iridescent colour wash -->
+  <ellipse cx="450" cy="75" rx="100" ry="11" fill="url(#discColor)" opacity=".40"/>
+
+  <!-- Specular reflection streak -->
+  <ellipse cx="438" cy="70" rx="60"  ry="3"  fill="url(#discShine)" opacity=".65"/>
+
+  <!-- Upper disc edge curve -->
+  <path d="M 350,68 C 385,61 415,59 450,59 C 485,59 515,61 550,68"
+        stroke="#dde6f0" stroke-width="0.9" fill="none" opacity=".30"/>
+
+  <!-- Secondary highlight crescent (right side) -->
+  <path d="M 490,67 C 510,64 535,66 552,71"
+        stroke="#fff" stroke-width="1.2" fill="none" opacity=".22"/>
+
+  <!-- Central hub -->
+  <ellipse cx="450" cy="77" rx="30" ry="4.5" fill="#111827" stroke="#4b5563" stroke-width=".8" opacity=".9"/>
+
+  <!-- Rim lights — wider spread to match disc -->
+  <circle cx="368" cy="78" r="3.5" fill="#ec4899" class="rl0" filter="url(#sg)"/>
+  <circle cx="393" cy="72" r="3.0" fill="#a855f7" class="rl1" filter="url(#sg)"/>
+  <circle cx="421" cy="68" r="2.8" fill="#67e8f9" class="rl2" filter="url(#sg)"/>
+  <circle cx="450" cy="67" r="3.0" fill="#f472b6" class="rl3" filter="url(#sg)"/>
+  <circle cx="479" cy="68" r="2.8" fill="#67e8f9" class="rl4" filter="url(#sg)"/>
+  <circle cx="507" cy="72" r="3.0" fill="#a855f7" class="rl5" filter="url(#sg)"/>
+  <circle cx="532" cy="78" r="3.5" fill="#ec4899" class="rl6" filter="url(#sg)"/>
+
+  <!-- Dome collar / base ring -->
+  <ellipse cx="450" cy="64" rx="29" ry="5.5" fill="url(#domeCollar)"/>
+  <ellipse cx="450" cy="64" rx="29" ry="5.5" fill="none" stroke="#64748b" stroke-width=".7" opacity=".6"/>
+
+  <!-- Dome body -->
+  <ellipse cx="450" cy="50" rx="25" ry="20" fill="url(#domeGlass)"/>
+
+  <!-- Dome glass reflections -->
+  <ellipse cx="444" cy="46" rx="11" ry="7"  fill="#a5f3fc" opacity=".20"/>
+  <path d="M 438,41 C 442,36 453,36 458,40" stroke="#e0f2fe" stroke-width="1.6" fill="none" opacity=".48"/>
+
+  <!-- Dome border -->
+  <ellipse cx="450" cy="50" rx="25" ry="20" fill="none" stroke="#0e7490" stroke-width=".7" opacity=".55"/>
+
+  <!-- Antenna -->
+  <line x1="450" y1="30" x2="450" y2="25" stroke="#94a3b8" stroke-width="1.5" opacity=".75"/>
+  <circle cx="450" cy="24" r="2.2" fill="#67e8f9" filter="url(#sg)" opacity=".85"/>
 </g>
 
-<!-- name letters — each spawns at beam centre (x=450) and flies to its final seat -->
+<!-- Name letters — each spawns at beam tiny, flies to seat and grows -->
 <text class="L L0"  x="164" y="172">S</text>
 <text class="L L1"  x="198" y="172">H</text>
 <text class="L L2"  x="240" y="172">U</text>
