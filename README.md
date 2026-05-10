@@ -9,13 +9,7 @@
 
 ---
 
-## 👋 Signal Received.
-
-I'm **Shucheera Prasad** — a Forest Astronomer living somewhere between the pine trees and the Pleiades.
-By day I write code; by night I point a telescope at things older than the Sun.
-Currently building a **wide-field astronomical imager** to photograph the entire Messier catalogue, one dark-sky site at a time.
-
-> *"The cosmos is within us. We are made of star-stuff."* — Carl Sagan
+<img width="100%" src="intro-card.svg"/>
 
 ---
 
