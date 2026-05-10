@@ -9,13 +9,7 @@
 
 ---
 
-<img width="100%" src="intro-card.svg"/>
-
----
-
-### 🛸 `> initialising_astronomer.py`
-
-<img width="100%" src="code-card.svg"/>
+<img width="100%" src="profile-card.svg"/>
 
 ---
 
