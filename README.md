@@ -21,8 +21,6 @@
 
 ---
 
-## 🌌 Deep-Space Analytics
-
 <div align="center">
 
 <img height="195" src="https://github-readme-stats.vercel.app/api?username=shucheeraprasad&show_icons=true&hide_border=true&bg_color=05070f&title_color=a855f7&icon_color=ec4899&text_color=c084fc&border_radius=20"/>
