@@ -23,9 +23,9 @@
 
 <div align="center">
 
-<img height="195" src="https://github-readme-stats.vercel.app/api?username=shucheeraprasad&show_icons=true&hide_border=true&bg_color=0d1117&title_color=a855f7&icon_color=ec4899&text_color=c084fc&border_radius=20"/>
+<img height="195" src="https://github-readme-stats.vercel.app/api?username=shucheeraprasad&show_icons=true&hide_border=true&theme=tokyonight&border_radius=20"/>
 
-<img height="195" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shucheeraprasad&layout=donut&hide_border=true&bg_color=0d1117&title_color=a855f7&text_color=c084fc&border_radius=20&langs_count=6"/>
+<img height="195" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shucheeraprasad&layout=donut&hide_border=true&theme=tokyonight&border_radius=20&langs_count=6"/>
 
 </div>
 
@@ -53,7 +53,7 @@
 
 <div align="center">
 
-[![wide-field-astronomical-imager](https://github-readme-stats.vercel.app/api/pin/?username=shucheeraprasad&repo=wide-field-astronomical-imager&hide_border=true&bg_color=0d1117&title_color=a855f7&icon_color=ec4899&text_color=c084fc&border_radius=16)](https://github.com/shucheeraprasad/wide-field-astronomical-imager)
+[![wide-field-astronomical-imager](https://github-readme-stats.vercel.app/api/pin/?username=shucheeraprasad&repo=wide-field-astronomical-imager&hide_border=true&theme=tokyonight&border_radius=16)](https://github.com/shucheeraprasad/wide-field-astronomical-imager)
 
 </div>
 
