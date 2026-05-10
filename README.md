@@ -11,7 +11,7 @@
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com?user=shucheeraprasad&hide_border=true&background=05070f&stroke=a855f7&ring=7c3aed&fire=ec4899&currStreakNum=a855f7&sideNums=a855f7&currStreakLabel=ec4899&sideLabels=ec4899&dates=7c3aed&border_radius=20"/>
+<img src="https://streak-stats.demolab.com?user=shucheeraprasad&hide_border=true&background=0d1117&stroke=a855f7&ring=7c3aed&fire=ec4899&currStreakNum=a855f7&sideNums=a855f7&currStreakLabel=ec4899&sideLabels=ec4899&dates=7c3aed&border_radius=20"/>
 
 </div>
 
@@ -23,9 +23,9 @@
 
 <div align="center">
 
-<img height="195" src="https://github-readme-stats.vercel.app/api?username=shucheeraprasad&show_icons=true&hide_border=true&bg_color=05070f&title_color=a855f7&icon_color=ec4899&text_color=c084fc&border_radius=20"/>
+<img height="195" src="https://github-readme-stats.vercel.app/api?username=shucheeraprasad&show_icons=true&hide_border=true&bg_color=0d1117&title_color=a855f7&icon_color=ec4899&text_color=c084fc&border_radius=20"/>
 
-<img height="195" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shucheeraprasad&layout=donut&hide_border=true&bg_color=05070f&title_color=a855f7&text_color=c084fc&border_radius=20&langs_count=6"/>
+<img height="195" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shucheeraprasad&layout=donut&hide_border=true&bg_color=0d1117&title_color=a855f7&text_color=c084fc&border_radius=20&langs_count=6"/>
 
 </div>
 
@@ -53,7 +53,7 @@
 
 <div align="center">
 
-[![wide-field-astronomical-imager](https://github-readme-stats.vercel.app/api/pin/?username=shucheeraprasad&repo=wide-field-astronomical-imager&hide_border=true&bg_color=05070f&title_color=a855f7&icon_color=ec4899&text_color=c084fc&border_radius=16)](https://github.com/shucheeraprasad/wide-field-astronomical-imager)
+[![wide-field-astronomical-imager](https://github-readme-stats.vercel.app/api/pin/?username=shucheeraprasad&repo=wide-field-astronomical-imager&hide_border=true&bg_color=0d1117&title_color=a855f7&icon_color=ec4899&text_color=c084fc&border_radius=16)](https://github.com/shucheeraprasad/wide-field-astronomical-imager)
 
 </div>
 
@@ -63,7 +63,7 @@
 
 <div align="center">
 
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=shucheeraprasad&bg_color=05070f&color=a855f7&line=7c3aed&point=ec4899&area_color=3b0764&area=true&hide_border=true&radius=8)](https://github.com/shucheeraprasad)
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=shucheeraprasad&bg_color=0d1117&color=a855f7&line=7c3aed&point=ec4899&area_color=3b0764&area=true&hide_border=true&radius=8)](https://github.com/shucheeraprasad)
 
 </div>
 
@@ -79,27 +79,7 @@
 
 ---
 
-## 🐍 Serpens Winds Through the Cosmos
-
 <div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shucheeraprasad/shucheeraprasad/output/github-contribution-grid-snake-dark.svg"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/shucheeraprasad/shucheeraprasad/output/github-contribution-grid-snake.svg"/>
-  <img alt="contribution snake" src="https://raw.githubusercontent.com/shucheeraprasad/shucheeraprasad/output/github-contribution-grid-snake-dark.svg"/>
-</picture>
-
-</div>
-
----
-
-<div align="center">
-
-```
-  ✦ · · · 🌸 · · · ✧ · · · 🌙 · · · ✦ · · · 🌸 · · · ✧ · · · ✦
-        💜 · · · ✦ · · · 🔭 · · · ✦ · · · 💜
-  ✦ · · · 🌸 · · · ✧ · · · 🌙 · · · ✦ · · · 🌸 · · · ✧ · · · ✦
-```
 
 *"The nitrogen in our DNA, the calcium in our teeth, the iron in our blood,*
 *the carbon in our apple pies — were made in the interiors of collapsing stars.*
