@@ -61,22 +61,6 @@
 
 <div align="center">
 
-```
-╔══════════════════════════════════════════════════════════════════╗
-║  🌑 ──── 🌒 ──── 🌓 ──── 🌔 ──── 🌕 ──── 🌖 ──── 🌗 ──── 🌘  ║
-║                    LUNAR MISSION TRACKER                         ║
-╠══════════════════════════════════════════════════════════════════╣
-║                                                                  ║
-║  🔭  PROJECT    wide-field-astronomical-imager                   ║
-║  🌿  STATUS     ████████████████████░░░░  85% to first light    ║
-║  🌊  STACK      Python · OpenCV · FITS · NumPy · Matplotlib     ║
-║  ✦   TARGET     Milky Way core panorama + Messier objects       ║
-║  🏔️  TERRAIN    Mountain dark-sky sites preferred              ║
-║                                                                  ║
-║  🌸  NEXT OBS   New moon window · No light pollution            ║
-║  📡  SIGNAL     All systems nominal                             ║
-╚══════════════════════════════════════════════════════════════════╝
-```
 
 [![wide-field-astronomical-imager](https://github-readme-stats.vercel.app/api/pin/?username=shucheeraprasad&repo=wide-field-astronomical-imager&hide_border=true&bg_color=05070f&title_color=a855f7&icon_color=ec4899&text_color=c084fc&border_radius=16)](https://github.com/shucheeraprasad/wide-field-astronomical-imager)
 
