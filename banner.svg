@@ -2,10 +2,8 @@
 <defs>
 
   <linearGradient id="basebg" x1="0" y1="0" x2="900" y2="320" gradientUnits="userSpaceOnUse">
-    <stop offset="0%"   stop-color="#05070f"/>
-    <stop offset="100%" stop-color="#0a0118"/>
+    <stop offset="0%" stop-color="#05070f"/><stop offset="100%" stop-color="#0a0118"/>
   </linearGradient>
-
   <radialGradient id="n1" cx="12%" cy="72%" r="50%"><stop offset="0%" stop-color="#7f1d1d" stop-opacity=".70"/><stop offset="100%" stop-color="#7f1d1d" stop-opacity="0"/></radialGradient>
   <radialGradient id="n2" cx="24%" cy="52%" r="45%"><stop offset="0%" stop-color="#be185d" stop-opacity=".55"/><stop offset="100%" stop-color="#be185d" stop-opacity="0"/></radialGradient>
   <radialGradient id="n3" cx="10%" cy="22%" r="42%"><stop offset="0%" stop-color="#f43f5e" stop-opacity=".45"/><stop offset="100%" stop-color="#f43f5e" stop-opacity="0"/></radialGradient>
@@ -16,8 +14,8 @@
   <radialGradient id="n8" cx="8%"  cy="95%" r="40%"><stop offset="0%" stop-color="#c2410c" stop-opacity=".50"/><stop offset="100%" stop-color="#c2410c" stop-opacity="0"/></radialGradient>
 
   <linearGradient id="beamg" x1="0" y1="0" x2="1" y2="0">
-    <stop offset="0%"   stop-color="#f472b6" stop-opacity="0"/>
-    <stop offset="50%"  stop-color="#f472b6" stop-opacity=".6"/>
+    <stop offset="0%" stop-color="#f472b6" stop-opacity="0"/>
+    <stop offset="50%" stop-color="#f472b6" stop-opacity=".6"/>
     <stop offset="100%" stop-color="#f472b6" stop-opacity="0"/>
   </linearGradient>
 
@@ -28,19 +26,22 @@
     <stop offset="100%" stop-color="#818cf8"/>
   </linearGradient>
 
-  <linearGradient id="hullg" x1="1" y1="0" x2="0" y2="0">
-    <stop offset="0%"   stop-color="#2e0060"/>
-    <stop offset="100%" stop-color="#6d28d9"/>
+  <!-- Saucer disc gradient -->
+  <linearGradient id="discg" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%"   stop-color="#6d28d9"/>
+    <stop offset="100%" stop-color="#1e0042"/>
   </linearGradient>
 
-  <radialGradient id="engr" cx="50%" cy="50%" r="50%">
-    <stop offset="0%"   stop-color="#ffffff"/>
-    <stop offset="35%"  stop-color="#ec4899"/>
-    <stop offset="100%" stop-color="#7c3aed" stop-opacity="0"/>
+  <!-- Dome gradient -->
+  <radialGradient id="domeg" cx="38%" cy="28%" r="65%">
+    <stop offset="0%"   stop-color="#7dd3fc"/>
+    <stop offset="45%"  stop-color="#0e7490"/>
+    <stop offset="100%" stop-color="#082f49"/>
   </radialGradient>
 
+  <!-- Cargo beam gradient (top-to-bottom fade) -->
   <linearGradient id="cbg" x1="0" y1="0" x2="0" y2="1">
-    <stop offset="0%"   stop-color="#67e8f9" stop-opacity=".9"/>
+    <stop offset="0%"   stop-color="#67e8f9" stop-opacity=".95"/>
     <stop offset="100%" stop-color="#67e8f9" stop-opacity="0"/>
   </linearGradient>
 
@@ -52,8 +53,8 @@
     <feGaussianBlur stdDeviation="3.5" result="b"/>
     <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
   </filter>
-  <filter id="sg" x="-30%" y="-30%" width="160%" height="160%">
-    <feGaussianBlur stdDeviation="1.5" result="b"/>
+  <filter id="sg" x="-40%" y="-40%" width="180%" height="180%">
+    <feGaussianBlur stdDeviation="2" result="b"/>
     <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
   </filter>
   <filter id="tglow" x="-8%" y="-30%" width="116%" height="160%">
@@ -62,61 +63,87 @@
   </filter>
 
   <style>
+    /* ── 9 s infinite loop ────────────────────────────────────── */
+
+    /* ROUND SAUCER: descends from above, hovers, ascends, repeats */
     @keyframes shipfly {
-      0%   { transform: translate(520px,-165px) rotate(12deg); opacity:0; }
-      6%   { opacity:1; }
-      22%  { transform: translate(0px,0px) rotate(0deg); }
-      57%  { transform: translate(0px,0px) rotate(0deg); }
-      63%  { transform: translate(-10px,-18px) rotate(-6deg); }
-      80%  { transform: translate(-570px,-175px) rotate(-14deg); opacity:1; }
-      87%  { opacity:0; }
-      100% { transform: translate(-570px,-175px); opacity:0; }
+      0%   { transform:translateY(-230px); opacity:0; }
+      5%   { opacity:1; }
+      20%  { transform:translateY(0); }
+      77%  { transform:translateY(0); }
+      88%  { transform:translateY(-230px); opacity:1; }
+      94%  { opacity:0; }
+      100% { transform:translateY(-230px); opacity:0; }
     }
-    #ship { animation: shipfly 8s cubic-bezier(.25,.46,.45,.94) both; transform-box:fill-box; transform-origin:center; }
+    #ship { animation:shipfly 9s cubic-bezier(.4,0,.2,1) infinite; }
 
-    @keyframes engpulse { 0%,100%{opacity:.9} 50%{opacity:1} }
-    #eng { animation: engpulse .35s ease-in-out infinite; }
+    /* RIM LIGHTS flicker */
+    @keyframes rl { 0%,100%{opacity:.45} 50%{opacity:1} }
+    .rl0 { animation:rl .40s ease-in-out infinite 0.00s; }
+    .rl1 { animation:rl .40s ease-in-out infinite 0.06s; }
+    .rl2 { animation:rl .40s ease-in-out infinite 0.13s; }
+    .rl3 { animation:rl .40s ease-in-out infinite 0.19s; }
+    .rl4 { animation:rl .40s ease-in-out infinite 0.26s; }
+    .rl5 { animation:rl .40s ease-in-out infinite 0.33s; }
+    .rl6 { animation:rl .40s ease-in-out infinite 0.40s; }
 
-    @keyframes ex { 0%{transform:translate(0,0);opacity:.85} 100%{transform:translate(50px,0);opacity:0} }
-    .ex  { animation: ex .5s ease-out infinite; transform-box:fill-box; transform-origin:center; }
-    .ex2 { animation-delay:.17s; }
-    .ex3 { animation-delay:.34s; }
+    /* CARGO BEAM appears while ship hovers */
+    @keyframes beamon { 0%,21%{opacity:0} 23%{opacity:.85} 78%{opacity:.85} 85%{opacity:0} 100%{opacity:0} }
+    .cb { animation:beamon 9s ease infinite; }
 
-    @keyframes beamon { 0%,23%{opacity:0} 26%{opacity:.75} 56%{opacity:.55} 63%{opacity:0} 100%{opacity:0} }
-    .cb { animation: beamon 8s ease both; }
+    /* BEAM SCAN — bright dot slides down the beam on repeat */
+    @keyframes bscan { 0%{transform:translateY(0);opacity:.9} 100%{transform:translateY(85px);opacity:.1} }
+    #bscan { animation:bscan .75s ease-in infinite, beamon 9s ease infinite; }
 
-    @keyframes dropit {
-      0%   { transform:translateY(-82px); opacity:0; }
-      18%  { opacity:1; }
-      72%  { transform:translateY(5px); }
-      83%  { transform:translateY(-2px); }
-      92%  { transform:translateY(1px); }
-      100% { transform:translateY(0); opacity:1; }
-    }
-    .L {
-      animation: dropit .7s ease-out both;
-      font-family: Georgia,'Times New Roman',serif;
-      font-size: 52px;
-      font-weight: 700;
-      fill: url(#tg);
-      filter: url(#tglow);
-      transform-box: fill-box;
-      transform-origin: center;
-    }
-    .d00{animation-delay:1.80s} .d01{animation-delay:1.93s} .d02{animation-delay:2.06s}
-    .d03{animation-delay:2.19s} .d04{animation-delay:2.32s} .d05{animation-delay:2.45s}
-    .d06{animation-delay:2.58s} .d07{animation-delay:2.71s} .d08{animation-delay:2.84s}
-    .d09{animation-delay:2.97s} .d10{animation-delay:3.10s} .d11{animation-delay:3.23s}
-    .d12{animation-delay:3.36s} .d13{animation-delay:3.49s} .d14{animation-delay:3.62s}
+    /* ── LETTER DROP KEYFRAMES (9 s, linear, infinite) ─────────
+       p_start values (3% stagger, first at 24%):
+       i: 0=24 1=27 2=30 3=33 4=36 5=39 6=42 7=45 8=48
+          9=51 10=54 11=57 12=60 13=63 14=66                   */
+    @keyframes dr0 {0%,23%{transform:translateY(-80px);opacity:0}25%{opacity:1}28%{transform:translateY(5px)}29%{transform:translateY(-2px)}30%{transform:translateY(0)}80%{transform:translateY(0);opacity:1}87%{opacity:0}89%,100%{transform:translateY(-80px);opacity:0}}
+    @keyframes dr1 {0%,26%{transform:translateY(-80px);opacity:0}28%{opacity:1}31%{transform:translateY(5px)}32%{transform:translateY(-2px)}33%{transform:translateY(0)}80%{transform:translateY(0);opacity:1}87%{opacity:0}89%,100%{transform:translateY(-80px);opacity:0}}
+    @keyframes dr2 {0%,29%{transform:translateY(-80px);opacity:0}31%{opacity:1}34%{transform:translateY(5px)}35%{transform:translateY(-2px)}36%{transform:translateY(0)}80%{transform:translateY(0);opacity:1}87%{opacity:0}89%,100%{transform:translateY(-80px);opacity:0}}
+    @keyframes dr3 {0%,32%{transform:translateY(-80px);opacity:0}34%{opacity:1}37%{transform:translateY(5px)}38%{transform:translateY(-2px)}39%{transform:translateY(0)}80%{transform:translateY(0);opacity:1}87%{opacity:0}89%,100%{transform:translateY(-80px);opacity:0}}
+    @keyframes dr4 {0%,35%{transform:translateY(-80px);opacity:0}37%{opacity:1}40%{transform:translateY(5px)}41%{transform:translateY(-2px)}42%{transform:translateY(0)}80%{transform:translateY(0);opacity:1}87%{opacity:0}89%,100%{transform:translateY(-80px);opacity:0}}
+    @keyframes dr5 {0%,38%{transform:translateY(-80px);opacity:0}40%{opacity:1}43%{transform:translateY(5px)}44%{transform:translateY(-2px)}45%{transform:translateY(0)}80%{transform:translateY(0);opacity:1}87%{opacity:0}89%,100%{transform:translateY(-80px);opacity:0}}
+    @keyframes dr6 {0%,41%{transform:translateY(-80px);opacity:0}43%{opacity:1}46%{transform:translateY(5px)}47%{transform:translateY(-2px)}48%{transform:translateY(0)}80%{transform:translateY(0);opacity:1}87%{opacity:0}89%,100%{transform:translateY(-80px);opacity:0}}
+    @keyframes dr7 {0%,44%{transform:translateY(-80px);opacity:0}46%{opacity:1}49%{transform:translateY(5px)}50%{transform:translateY(-2px)}51%{transform:translateY(0)}80%{transform:translateY(0);opacity:1}87%{opacity:0}89%,100%{transform:translateY(-80px);opacity:0}}
+    @keyframes dr8 {0%,47%{transform:translateY(-80px);opacity:0}49%{opacity:1}52%{transform:translateY(5px)}53%{transform:translateY(-2px)}54%{transform:translateY(0)}80%{transform:translateY(0);opacity:1}87%{opacity:0}89%,100%{transform:translateY(-80px);opacity:0}}
+    @keyframes dr9 {0%,50%{transform:translateY(-80px);opacity:0}52%{opacity:1}55%{transform:translateY(5px)}56%{transform:translateY(-2px)}57%{transform:translateY(0)}80%{transform:translateY(0);opacity:1}87%{opacity:0}89%,100%{transform:translateY(-80px);opacity:0}}
+    @keyframes dr10{0%,53%{transform:translateY(-80px);opacity:0}55%{opacity:1}58%{transform:translateY(5px)}59%{transform:translateY(-2px)}60%{transform:translateY(0)}80%{transform:translateY(0);opacity:1}87%{opacity:0}89%,100%{transform:translateY(-80px);opacity:0}}
+    @keyframes dr11{0%,56%{transform:translateY(-80px);opacity:0}58%{opacity:1}61%{transform:translateY(5px)}62%{transform:translateY(-2px)}63%{transform:translateY(0)}80%{transform:translateY(0);opacity:1}87%{opacity:0}89%,100%{transform:translateY(-80px);opacity:0}}
+    @keyframes dr12{0%,59%{transform:translateY(-80px);opacity:0}61%{opacity:1}64%{transform:translateY(5px)}65%{transform:translateY(-2px)}66%{transform:translateY(0)}80%{transform:translateY(0);opacity:1}87%{opacity:0}89%,100%{transform:translateY(-80px);opacity:0}}
+    @keyframes dr13{0%,62%{transform:translateY(-80px);opacity:0}64%{opacity:1}67%{transform:translateY(5px)}68%{transform:translateY(-2px)}69%{transform:translateY(0)}80%{transform:translateY(0);opacity:1}87%{opacity:0}89%,100%{transform:translateY(-80px);opacity:0}}
+    @keyframes dr14{0%,65%{transform:translateY(-80px);opacity:0}67%{opacity:1}70%{transform:translateY(5px)}71%{transform:translateY(-2px)}72%{transform:translateY(0)}80%{transform:translateY(0);opacity:1}87%{opacity:0}89%,100%{transform:translateY(-80px);opacity:0}}
 
-    @keyframes tw1 { 0%,100%{opacity:.65} 50%{opacity:.20} }
-    @keyframes tw2 { 0%,100%{opacity:.40} 50%{opacity:.80} }
-    @keyframes tw3 { 0%,100%{opacity:.70} 50%{opacity:.25} }
-    @keyframes dbp  { 0%,100%{opacity:.35} 50%{opacity:.55} }
-    #db { animation: dbp 3s ease-in-out infinite; }
+    .L { font-family:Georgia,'Times New Roman',serif; font-size:52px; font-weight:700;
+         fill:url(#tg); filter:url(#tglow);
+         transform-box:fill-box; transform-origin:center; }
+    .L0 {animation:dr0  9s linear infinite}
+    .L1 {animation:dr1  9s linear infinite}
+    .L2 {animation:dr2  9s linear infinite}
+    .L3 {animation:dr3  9s linear infinite}
+    .L4 {animation:dr4  9s linear infinite}
+    .L5 {animation:dr5  9s linear infinite}
+    .L6 {animation:dr6  9s linear infinite}
+    .L7 {animation:dr7  9s linear infinite}
+    .L8 {animation:dr8  9s linear infinite}
+    .L9 {animation:dr9  9s linear infinite}
+    .L10{animation:dr10 9s linear infinite}
+    .L11{animation:dr11 9s linear infinite}
+    .L12{animation:dr12 9s linear infinite}
+    .L13{animation:dr13 9s linear infinite}
+    .L14{animation:dr14 9s linear infinite}
+
+    /* STARS */
+    @keyframes tw1{0%,100%{opacity:.65}50%{opacity:.20}}
+    @keyframes tw2{0%,100%{opacity:.40}50%{opacity:.80}}
+    @keyframes tw3{0%,100%{opacity:.70}50%{opacity:.25}}
+    @keyframes dbp{0%,100%{opacity:.35}50%{opacity:.55}}
+    #db{animation:dbp 3s ease-in-out infinite}
   </style>
 </defs>
 
+<!-- background -->
 <rect width="900" height="320" fill="url(#basebg)"/>
 <rect width="900" height="320" fill="url(#n1)"/>
 <rect width="900" height="320" fill="url(#n2)"/>
@@ -129,6 +156,7 @@
 
 <line id="db" x1="-20" y1="310" x2="520" y2="-30" stroke="url(#beamg)" stroke-width="12" filter="url(#bloom)"/>
 
+<!-- stars -->
 <circle cx="45"  cy="18"  r="1.5" fill="#fff" opacity=".70" style="animation:tw1 3.2s ease-in-out infinite"/>
 <circle cx="120" cy="8"   r="1.0" fill="#fff" opacity=".50"/>
 <circle cx="180" cy="28"  r="0.8" fill="#f9a8d4" opacity=".60" style="animation:tw2 2.8s ease-in-out infinite"/>
@@ -145,61 +173,66 @@
 <circle cx="850" cy="30"  r="0.9" fill="#fff" opacity=".60"/>
 <circle cx="880" cy="10"  r="1.1" fill="#f9a8d4" opacity=".50" style="animation:tw2 2.2s ease-in-out infinite"/>
 <circle cx="70"  cy="260" r="1.0" fill="#fff" opacity=".40"/>
-<circle cx="150" cy="280" r="0.7" fill="#c4b5fd" opacity=".50" style="animation:tw3 3.5s ease-in-out infinite"/>
 <circle cx="300" cy="290" r="0.8" fill="#fff" opacity=".40" style="animation:tw1 2.8s ease-in-out infinite"/>
 <circle cx="600" cy="270" r="1.1" fill="#f9a8d4" opacity=".40"/>
 <circle cx="700" cy="285" r="0.9" fill="#fff" opacity=".50" style="animation:tw2 4.0s ease-in-out infinite"/>
-<circle cx="840" cy="295" r="0.8" fill="#fff" opacity=".30"/>
 <circle cx="160" cy="200" r="1.1" fill="#c4b5fd" opacity=".40" style="animation:tw1 3.8s ease-in-out infinite"/>
 <circle cx="855" cy="200" r="1.0" fill="#f9a8d4" opacity=".40" style="animation:tw3 2.6s ease-in-out infinite"/>
 
-<!-- cargo beam: ship at y=90, name at y=172, beam bridges the gap -->
-<rect class="cb" x="443" y="108" width="14" height="72" rx="7"  fill="url(#cbg)" filter="url(#glow)"/>
-<rect class="cb" x="436" y="108" width="28" height="72" rx="14" fill="url(#cbg)" opacity=".22" filter="url(#bloom)"/>
+<!-- ── CARGO BEAM  (x=450, y=90→175) ── -->
+<rect class="cb" x="446" y="90" width="8"  height="85" rx="4"  fill="url(#cbg)" filter="url(#glow)"/>
+<rect class="cb" x="440" y="90" width="20" height="85" rx="10" fill="url(#cbg)" opacity=".22" filter="url(#bloom)"/>
+<!-- scanning dot -->
+<circle id="bscan" cx="450" cy="90" r="4" fill="#67e8f9" filter="url(#glow)"/>
 
-<!-- spaceship (CSS animates the outer #ship group; inner g places it at 450,90) -->
+<!-- ── ROUND SAUCER (drawn at absolute coords; CSS translateY animates it) ──
+     Disc centre: (450, 77)  →  bottom of disc: y=90  →  beam starts here
+     Top of dome: y≈35       →  CSS start offset: -230px puts it at y=-153    -->
 <g id="ship">
-  <g transform="translate(450,90)">
-    <path d="M 16,-12 L 13,-44 L -16,-12 Z" fill="#5b21b6" stroke="#8b5cf6" stroke-width=".8" opacity=".92"/>
-    <line x1="13" y1="-12" x2="6" y2="-36" stroke="#7c3aed" stroke-width=".5" opacity=".5"/>
-    <path d="M 16,12 L 13,44 L -16,12 Z"    fill="#5b21b6" stroke="#8b5cf6" stroke-width=".8" opacity=".92"/>
-    <line x1="13" y1="12"  x2="6" y2="36"  stroke="#7c3aed" stroke-width=".5" opacity=".5"/>
-    <rect x="42" y="-9"  width="15" height="18" rx="5" fill="#1e0040"/>
-    <rect x="44" y="-7"  width="11" height="14" rx="3" fill="#4c1d95"/>
-    <path d="M-52,0 C-46,-7 -28,-14 16,-12 C38,-12 52,-5 52,0 C52,5 38,12 16,12 C-28,14 -46,7 -52,0Z"
-      fill="url(#hullg)" stroke="#7c3aed" stroke-width="1.2"/>
-    <path d="M-46,0 C-42,-5 -24,-10 14,-8 C32,-8 44,-3 44,0" stroke="#a855f7" stroke-width=".9" fill="none" opacity=".5"/>
-    <line x1="-20" y1="-9" x2="-20" y2="9"  stroke="#4c1d95" stroke-width=".6" opacity=".7"/>
-    <line x1="0"   y1="-11" x2="0" y2="11"  stroke="#4c1d95" stroke-width=".6" opacity=".5"/>
-    <line x1="24"  y1="-10" x2="24" y2="10" stroke="#4c1d95" stroke-width=".5" opacity=".4"/>
-    <ellipse cx="-12" cy="-3" rx="17" ry="10" fill="#0e7490" opacity=".85"/>
-    <ellipse cx="-12" cy="-3" rx="17" ry="10" fill="#67e8f9" opacity=".22"/>
-    <ellipse cx="-12" cy="-3" rx="17" ry="10" fill="none" stroke="#67e8f9" stroke-width="1" opacity=".7"/>
-    <path d="M-24,-8 C-20,-13 -10,-13 -5,-9" stroke="#a5f3fc" stroke-width="1.2" fill="none" opacity=".65"/>
-    <circle cx="-8" cy="-4" r="2.5" fill="#e0f2fe" opacity=".55"/>
-    <circle cx="-53" cy="0" r="2.5" fill="#f0abfc" opacity=".8" filter="url(#sg)"/>
-    <ellipse id="eng" cx="62" cy="0" rx="13" ry="13" fill="url(#engr)" opacity=".92" filter="url(#glow)"/>
-    <circle class="ex"     cx="62" cy="-4" r="3"   fill="#ec4899"/>
-    <circle class="ex ex2" cx="62" cy="4"  r="2.2" fill="#f472b6"/>
-    <circle class="ex ex3" cx="62" cy="0"  r="2.6" fill="#fda4af"/>
-  </g>
+  <!-- under-disc engine glow -->
+  <ellipse cx="450" cy="91" rx="32" ry="5" fill="#a855f7" opacity=".55" filter="url(#sg)"/>
+
+  <!-- main disc -->
+  <ellipse cx="450" cy="77" rx="56" ry="13" fill="url(#discg)"/>
+  <!-- disc upper rim highlight -->
+  <path d="M 396,70 C 402,63 498,63 504,70" stroke="#9333ea" stroke-width=".8" fill="none" opacity=".5"/>
+  <!-- disc outer ring -->
+  <ellipse cx="450" cy="77" rx="56" ry="13" fill="none" stroke="#7c3aed" stroke-width="1.2" opacity=".7"/>
+
+  <!-- dome body -->
+  <ellipse cx="450" cy="55" rx="27" ry="22" fill="url(#domeg)"/>
+  <!-- dome glass tint -->
+  <ellipse cx="445" cy="50" rx="13" ry="9"  fill="#67e8f9" opacity=".30"/>
+  <!-- dome reflection arc -->
+  <path d="M 436,43 C 440,37 451,37 456,42" stroke="#a5f3fc" stroke-width="1.5" fill="none" opacity=".55"/>
+  <!-- dome outer ring -->
+  <ellipse cx="450" cy="55" rx="27" ry="22" fill="none" stroke="#0e7490" stroke-width=".8" opacity=".5"/>
+
+  <!-- rim lights (7 lights along disc edge, y≈72) -->
+  <circle cx="396" cy="74" r="3.0" fill="#ec4899" class="rl0" filter="url(#sg)"/>
+  <circle cx="414" cy="71" r="2.5" fill="#a855f7" class="rl1" filter="url(#sg)"/>
+  <circle cx="432" cy="70" r="2.5" fill="#67e8f9" class="rl2" filter="url(#sg)"/>
+  <circle cx="450" cy="69" r="2.5" fill="#f472b6" class="rl3" filter="url(#sg)"/>
+  <circle cx="468" cy="70" r="2.5" fill="#67e8f9" class="rl4" filter="url(#sg)"/>
+  <circle cx="486" cy="71" r="2.5" fill="#a855f7" class="rl5" filter="url(#sg)"/>
+  <circle cx="504" cy="74" r="3.0" fill="#ec4899" class="rl6" filter="url(#sg)"/>
 </g>
 
-<!-- name letters drop from ship (y=90) into final position (y=172) -->
-<text class="L d00" x="164" y="172">S</text>
-<text class="L d01" x="198" y="172">H</text>
-<text class="L d02" x="240" y="172">U</text>
-<text class="L d03" x="282" y="172">C</text>
-<text class="L d04" x="316" y="172">H</text>
-<text class="L d05" x="358" y="172">E</text>
-<text class="L d06" x="392" y="172">E</text>
-<text class="L d07" x="426" y="172">R</text>
-<text class="L d08" x="460" y="172">A</text>
-<text class="L d09" x="516" y="172">P</text>
-<text class="L d10" x="550" y="172">R</text>
-<text class="L d11" x="584" y="172">A</text>
-<text class="L d12" x="622" y="172">S</text>
-<text class="L d13" x="656" y="172">A</text>
-<text class="L d14" x="694" y="172">D</text>
+<!-- ── NAME LETTERS  y=172, each drops 80px via per-letter keyframe ── -->
+<text class="L L0"  x="164" y="172">S</text>
+<text class="L L1"  x="198" y="172">H</text>
+<text class="L L2"  x="240" y="172">U</text>
+<text class="L L3"  x="282" y="172">C</text>
+<text class="L L4"  x="316" y="172">H</text>
+<text class="L L5"  x="358" y="172">E</text>
+<text class="L L6"  x="392" y="172">E</text>
+<text class="L L7"  x="426" y="172">R</text>
+<text class="L L8"  x="460" y="172">A</text>
+<text class="L L9"  x="516" y="172">P</text>
+<text class="L L10" x="550" y="172">R</text>
+<text class="L L11" x="584" y="172">A</text>
+<text class="L L12" x="622" y="172">S</text>
+<text class="L L13" x="656" y="172">A</text>
+<text class="L L14" x="694" y="172">D</text>
 
 </svg>
