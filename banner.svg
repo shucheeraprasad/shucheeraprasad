@@ -148,7 +148,7 @@
 
     /* text styling — no animation here */
     .Lt{font-family:Georgia,'Times New Roman',serif;font-size:52px;font-weight:700;fill:url(#tg);filter:url(#tglow)}
-    /* animation on <g> wrappers — same as #ship, guaranteed to work on GitHub */
+    /* animation on group wrappers — same as #ship, guaranteed to work on GitHub */
     .L0 {animation:dr0  9s ease-out infinite}
     .L1 {animation:dr1  9s ease-out infinite}
     .L2 {animation:dr2  9s ease-out infinite}
