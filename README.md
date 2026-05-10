@@ -41,12 +41,6 @@
 
 ---
 
-<div align="center">
-
-[![wide-field-astronomical-imager](https://github-readme-stats.vercel.app/api/pin/?username=shucheeraprasad&repo=wide-field-astronomical-imager&hide_border=true&theme=tokyonight&border_radius=16)](https://github.com/shucheeraprasad/wide-field-astronomical-imager)
-
-</div>
-
 ---
 
 ## 🌠 Contribution Nebula
