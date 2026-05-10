@@ -146,7 +146,9 @@
     @keyframes dr13{0%,62%{transform:translate(-206px,-56px);opacity:0}64%{transform:translate(-206px,-56px);opacity:1}69%{transform:translate(0,2px)}71%{transform:translate(0,0)}80%{transform:translate(0,0);opacity:1}87%{opacity:0}89%,100%{transform:translate(-206px,-56px);opacity:0}}
     @keyframes dr14{0%,65%{transform:translate(-244px,-56px);opacity:0}67%{transform:translate(-244px,-56px);opacity:1}72%{transform:translate(0,2px)}74%{transform:translate(0,0)}80%{transform:translate(0,0);opacity:1}87%{opacity:0}89%,100%{transform:translate(-244px,-56px);opacity:0}}
 
-    .L{font-family:Georgia,'Times New Roman',serif;font-size:52px;font-weight:700;fill:url(#tg);filter:url(#tglow)}
+    /* text styling — no animation here */
+    .Lt{font-family:Georgia,'Times New Roman',serif;font-size:52px;font-weight:700;fill:url(#tg);filter:url(#tglow)}
+    /* animation on <g> wrappers — same as #ship, guaranteed to work on GitHub */
     .L0 {animation:dr0  9s ease-out infinite}
     .L1 {animation:dr1  9s ease-out infinite}
     .L2 {animation:dr2  9s ease-out infinite}
@@ -273,21 +275,21 @@
   <circle cx="450" cy="24" r="2.2" fill="#67e8f9" filter="url(#sg)" opacity=".85"/>
 </g>
 
-<!-- Name letters — each spawns at beam tiny, flies to seat and grows -->
-<text class="L L0"  x="164" y="172">S</text>
-<text class="L L1"  x="198" y="172">H</text>
-<text class="L L2"  x="240" y="172">U</text>
-<text class="L L3"  x="282" y="172">C</text>
-<text class="L L4"  x="316" y="172">H</text>
-<text class="L L5"  x="358" y="172">E</text>
-<text class="L L6"  x="392" y="172">E</text>
-<text class="L L7"  x="426" y="172">R</text>
-<text class="L L8"  x="460" y="172">A</text>
-<text class="L L9"  x="516" y="172">P</text>
-<text class="L L10" x="550" y="172">R</text>
-<text class="L L11" x="584" y="172">A</text>
-<text class="L L12" x="622" y="172">S</text>
-<text class="L L13" x="656" y="172">A</text>
-<text class="L L14" x="694" y="172">D</text>
+<!-- Name letters — <g> carries the animation (like #ship), <text> carries styling -->
+<g class="L0"><text class="Lt" x="164" y="172">S</text></g>
+<g class="L1"><text class="Lt" x="198" y="172">H</text></g>
+<g class="L2"><text class="Lt" x="240" y="172">U</text></g>
+<g class="L3"><text class="Lt" x="282" y="172">C</text></g>
+<g class="L4"><text class="Lt" x="316" y="172">H</text></g>
+<g class="L5"><text class="Lt" x="358" y="172">E</text></g>
+<g class="L6"><text class="Lt" x="392" y="172">E</text></g>
+<g class="L7"><text class="Lt" x="426" y="172">R</text></g>
+<g class="L8"><text class="Lt" x="460" y="172">A</text></g>
+<g class="L9"><text class="Lt" x="516" y="172">P</text></g>
+<g class="L10"><text class="Lt" x="550" y="172">R</text></g>
+<g class="L11"><text class="Lt" x="584" y="172">A</text></g>
+<g class="L12"><text class="Lt" x="622" y="172">S</text></g>
+<g class="L13"><text class="Lt" x="656" y="172">A</text></g>
+<g class="L14"><text class="Lt" x="694" y="172">D</text></g>
 
 </svg>
