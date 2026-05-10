@@ -21,16 +21,6 @@
 
 ---
 
-<div align="center">
-
-<img height="195" src="https://github-readme-stats.vercel.app/api?username=shucheeraprasad&show_icons=true&hide_border=true&theme=tokyonight&border_radius=20"/>
-
-<img height="195" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shucheeraprasad&layout=donut&hide_border=true&theme=tokyonight&border_radius=20&langs_count=6"/>
-
-</div>
-
----
-
 ## ✦ Stellar Coordinates — Skills
 
 <div align="center">
