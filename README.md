@@ -9,6 +9,14 @@
 
 ---
 
+<div align="center">
+
+<img src="https://streak-stats.demolab.com?user=shucheeraprasad&hide_border=true&background=05070f&stroke=a855f7&ring=7c3aed&fire=ec4899&currStreakNum=a855f7&sideNums=a855f7&currStreakLabel=ec4899&sideLabels=ec4899&dates=7c3aed&border_radius=20"/>
+
+</div>
+
+---
+
 <img width="100%" src="profile-card.svg"/>
 
 ---
@@ -20,12 +28,6 @@
 <img height="195" src="https://github-readme-stats.vercel.app/api?username=shucheeraprasad&show_icons=true&hide_border=true&bg_color=05070f&title_color=a855f7&icon_color=ec4899&text_color=c084fc&border_radius=20"/>
 
 <img height="195" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shucheeraprasad&layout=donut&hide_border=true&bg_color=05070f&title_color=a855f7&text_color=c084fc&border_radius=20&langs_count=6"/>
-
-</div>
-
-<div align="center">
-
-<img src="https://streak-stats.demolab.com?user=shucheeraprasad&hide_border=true&background=05070f&stroke=a855f7&ring=7c3aed&fire=ec4899&currStreakNum=a855f7&sideNums=a855f7&currStreakLabel=ec4899&sideLabels=ec4899&dates=7c3aed&border_radius=20"/>
 
 </div>
 
@@ -54,7 +56,6 @@
 ## 🛰️ Mission Control
 
 <div align="center">
-
 
 [![wide-field-astronomical-imager](https://github-readme-stats.vercel.app/api/pin/?username=shucheeraprasad&repo=wide-field-astronomical-imager&hide_border=true&bg_color=05070f&title_color=a855f7&icon_color=ec4899&text_color=c084fc&border_radius=16)](https://github.com/shucheeraprasad/wide-field-astronomical-imager)
 
