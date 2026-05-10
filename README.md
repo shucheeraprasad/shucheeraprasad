@@ -31,29 +31,7 @@
 
 ### 🛸 `> initialising_astronomer.py`
 
-```python
-class ShucheeraPrasad:
-    archetype   = "Forest Astronomer  🔭🌿"
-    coordinates = {
-        "soul" : "Between the pines & the Pleiades",
-        "body" : "Planet Earth  🌍",
-        "mind" : "Somewhere in the Andromeda Galaxy"
-    }
-    elements = {
-        "🌿 Flora"  : "Grounded · patient · ever-growing",
-        "🌊 Water"  : "Fluid · reflective · deep",
-        "🔥 Fire"   : "Stellar fusion & CPU cores",
-        "🌌 Ether"  : "The void between galaxies"
-    }
-    mission    = "📡 Wide-Field Astronomical Imager"
-    north_star = "Photograph the entire Messier catalogue"
-    ritual     = "Forest walk → telescope → code → repeat"
-
-    def transmit(self):
-        print("Signal locked. Welcome to the Observatory.")
-
-ShucheeraPrasad().transmit()
-```
+<img width="100%" src="code-card.svg"/>
 
 ---
 

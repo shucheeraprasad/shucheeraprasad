@@ -1,0 +1,189 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 510" xml:space="preserve">
+<defs>
+  <linearGradient id="cbg" x1="0" y1="0" x2="900" y2="510" gradientUnits="userSpaceOnUse">
+    <stop offset="0%" stop-color="#0d0118"/>
+    <stop offset="60%" stop-color="#090013"/>
+    <stop offset="100%" stop-color="#05070f"/>
+  </linearGradient>
+  <linearGradient id="topbar" x1="0" y1="0" x2="900" y2="0" gradientUnits="userSpaceOnUse">
+    <stop offset="0%"   stop-color="#7c3aed" stop-opacity="0"/>
+    <stop offset="30%"  stop-color="#a855f7"/>
+    <stop offset="50%"  stop-color="#ec4899"/>
+    <stop offset="70%"  stop-color="#a855f7"/>
+    <stop offset="100%" stop-color="#7c3aed" stop-opacity="0"/>
+  </linearGradient>
+  <filter id="glow">
+    <feGaussianBlur stdDeviation="2" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="softglow">
+    <feGaussianBlur stdDeviation="1" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <style>
+    .mono { font-family: 'Fira Code','Cascadia Code','JetBrains Mono','SF Mono',Consolas,monospace; font-size:13px; }
+    .ln   { font-family: 'Fira Code','Cascadia Code','JetBrains Mono','SF Mono',Consolas,monospace; font-size:11px; fill:#3d3556; }
+    @keyframes blink { 0%,49%{opacity:1} 50%,100%{opacity:0} }
+    @keyframes fadeup { from{opacity:0;transform:translateY(6px)} to{opacity:1;transform:translateY(0)} }
+    .cursor { animation: blink 1.2s step-end infinite; }
+    .row    { animation: fadeup 0.4s ease both; }
+    .r1{animation-delay:0.05s}.r2{animation-delay:0.10s}.r3{animation-delay:0.15s}
+    .r4{animation-delay:0.20s}.r5{animation-delay:0.25s}.r6{animation-delay:0.30s}
+    .r7{animation-delay:0.35s}.r8{animation-delay:0.40s}.r9{animation-delay:0.45s}
+    .r10{animation-delay:0.50s}.r11{animation-delay:0.55s}.r12{animation-delay:0.60s}
+    .r13{animation-delay:0.65s}.r14{animation-delay:0.70s}.r15{animation-delay:0.75s}
+    .r16{animation-delay:0.80s}.r17{animation-delay:0.88s}.r18{animation-delay:0.96s}
+    .r19{animation-delay:1.00s}.r20{animation-delay:1.06s}.r21{animation-delay:1.12s}
+  </style>
+</defs>
+
+<!-- Background -->
+<rect width="900" height="510" fill="url(#cbg)" rx="16"/>
+
+<!-- Ambient glow top-left -->
+<ellipse cx="120" cy="80" rx="200" ry="100" fill="#4c1d95" opacity="0.12"/>
+<!-- Ambient glow bottom-right -->
+<ellipse cx="800" cy="430" rx="180" ry="90" fill="#831843" opacity="0.10"/>
+
+<!-- Top accent bar -->
+<rect x="0" y="0" width="900" height="2.5" rx="1" fill="url(#topbar)"/>
+
+<!-- Border -->
+<rect width="900" height="510" fill="none" stroke="#4c1d95" stroke-width="1.5" rx="16" opacity="0.55"/>
+
+<!-- Window dots -->
+<circle cx="30" cy="30" r="7" fill="#ec4899" filter="url(#softglow)"/>
+<circle cx="55" cy="30" r="7" fill="#a855f7" filter="url(#softglow)"/>
+<circle cx="80" cy="30" r="7" fill="#7c3aed" filter="url(#softglow)"/>
+
+<!-- Filename -->
+<text x="450" y="34" text-anchor="middle" font-family="monospace" font-size="12" fill="#6b21a8" letter-spacing="3">astronomer.py</text>
+
+<!-- Header separator -->
+<line x1="0" y1="50" x2="900" y2="50" stroke="#3b0764" stroke-width="1" opacity="0.5"/>
+
+<!-- Line-number gutter -->
+<rect x="0" y="50" width="52" height="460" fill="#060011" opacity="0.45"/>
+<line x1="52" y1="50" x2="52" y2="510" stroke="#2e1065" stroke-width="1" opacity="0.4"/>
+
+<!-- ── LINE NUMBERS ── -->
+<text x="36" y="75"  class="ln" text-anchor="end">1</text>
+<text x="36" y="95"  class="ln" text-anchor="end">2</text>
+<text x="36" y="115" class="ln" text-anchor="end">3</text>
+<text x="36" y="135" class="ln" text-anchor="end">4</text>
+<text x="36" y="155" class="ln" text-anchor="end">5</text>
+<text x="36" y="175" class="ln" text-anchor="end">6</text>
+<text x="36" y="195" class="ln" text-anchor="end">7</text>
+<text x="36" y="215" class="ln" text-anchor="end">8</text>
+<text x="36" y="235" class="ln" text-anchor="end">9</text>
+<text x="36" y="255" class="ln" text-anchor="end">10</text>
+<text x="36" y="275" class="ln" text-anchor="end">11</text>
+<text x="36" y="295" class="ln" text-anchor="end">12</text>
+<text x="36" y="315" class="ln" text-anchor="end">13</text>
+<text x="36" y="335" class="ln" text-anchor="end">14</text>
+<text x="36" y="355" class="ln" text-anchor="end">15</text>
+<text x="36" y="375" class="ln" text-anchor="end">16</text>
+<text x="36" y="415" class="ln" text-anchor="end">17</text>
+<text x="36" y="435" class="ln" text-anchor="end">18</text>
+<text x="36" y="475" class="ln" text-anchor="end">19</text>
+
+<!-- ── CODE LINES ── -->
+
+<!-- L1: class ShucheeraPrasad: -->
+<text x="64" y="75" class="mono row r1">
+  <tspan fill="#c084fc">class </tspan><tspan fill="#67e8f9">ShucheeraPrasad</tspan><tspan fill="#9ca3af">:</tspan>
+</text>
+
+<!-- L2:     archetype   = "Forest Astronomer  🔭🌿" -->
+<text x="64" y="95" class="mono row r2">
+  <tspan fill="#9ca3af">    </tspan><tspan fill="#e879f9">archetype</tspan><tspan fill="#9ca3af">   = </tspan><tspan fill="#f472b6">"Forest Astronomer  🔭🌿"</tspan>
+</text>
+
+<!-- L3:     coordinates = { -->
+<text x="64" y="115" class="mono row r3">
+  <tspan fill="#9ca3af">    </tspan><tspan fill="#e879f9">coordinates</tspan><tspan fill="#9ca3af"> = {</tspan>
+</text>
+
+<!-- L4:         "soul" : "Between the pines & the Pleiades", -->
+<text x="64" y="135" class="mono row r4">
+  <tspan fill="#9ca3af">        </tspan><tspan fill="#93c5fd">"soul"</tspan><tspan fill="#9ca3af"> : </tspan><tspan fill="#f472b6">"Between the pines &amp; the Pleiades"</tspan><tspan fill="#9ca3af">,</tspan>
+</text>
+
+<!-- L5:         "body" : "Planet Earth  🌍", -->
+<text x="64" y="155" class="mono row r5">
+  <tspan fill="#9ca3af">        </tspan><tspan fill="#93c5fd">"body"</tspan><tspan fill="#9ca3af"> : </tspan><tspan fill="#f472b6">"Planet Earth  🌍"</tspan><tspan fill="#9ca3af">,</tspan>
+</text>
+
+<!-- L6:         "mind" : "Somewhere in the Andromeda Galaxy" -->
+<text x="64" y="175" class="mono row r6">
+  <tspan fill="#9ca3af">        </tspan><tspan fill="#93c5fd">"mind"</tspan><tspan fill="#9ca3af"> : </tspan><tspan fill="#f472b6">"Somewhere in the Andromeda Galaxy"</tspan>
+</text>
+
+<!-- L7:     } -->
+<text x="64" y="195" class="mono row r7">
+  <tspan fill="#9ca3af">    }</tspan>
+</text>
+
+<!-- L8:     elements = { -->
+<text x="64" y="215" class="mono row r8">
+  <tspan fill="#9ca3af">    </tspan><tspan fill="#e879f9">elements</tspan><tspan fill="#9ca3af"> = {</tspan>
+</text>
+
+<!-- L9:         "🌿 Flora"  : "Grounded · patient · ever-growing", -->
+<text x="64" y="235" class="mono row r9">
+  <tspan fill="#9ca3af">        </tspan><tspan fill="#93c5fd">"🌿 Flora"</tspan><tspan fill="#9ca3af">  : </tspan><tspan fill="#f472b6">"Grounded · patient · ever-growing"</tspan><tspan fill="#9ca3af">,</tspan>
+</text>
+
+<!-- L10:        "🌊 Water"  : "Fluid · reflective · deep", -->
+<text x="64" y="255" class="mono row r10">
+  <tspan fill="#9ca3af">        </tspan><tspan fill="#93c5fd">"🌊 Water"</tspan><tspan fill="#9ca3af">  : </tspan><tspan fill="#f472b6">"Fluid · reflective · deep"</tspan><tspan fill="#9ca3af">,</tspan>
+</text>
+
+<!-- L11:        "🔥 Fire"   : "Stellar fusion & CPU cores", -->
+<text x="64" y="275" class="mono row r11">
+  <tspan fill="#9ca3af">        </tspan><tspan fill="#93c5fd">"🔥 Fire"</tspan><tspan fill="#9ca3af">   : </tspan><tspan fill="#f472b6">"Stellar fusion &amp; CPU cores"</tspan><tspan fill="#9ca3af">,</tspan>
+</text>
+
+<!-- L12:        "🌌 Ether"  : "The void between galaxies" -->
+<text x="64" y="295" class="mono row r12">
+  <tspan fill="#9ca3af">        </tspan><tspan fill="#93c5fd">"🌌 Ether"</tspan><tspan fill="#9ca3af">  : </tspan><tspan fill="#f472b6">"The void between galaxies"</tspan>
+</text>
+
+<!-- L13:    } -->
+<text x="64" y="315" class="mono row r13">
+  <tspan fill="#9ca3af">    }</tspan>
+</text>
+
+<!-- L14:    mission    = "📡 Wide-Field Astronomical Imager" -->
+<text x="64" y="335" class="mono row r14">
+  <tspan fill="#9ca3af">    </tspan><tspan fill="#e879f9">mission</tspan><tspan fill="#9ca3af">    = </tspan><tspan fill="#f472b6">"📡 Wide-Field Astronomical Imager"</tspan>
+</text>
+
+<!-- L15:    north_star = "Photograph the entire Messier catalogue" -->
+<text x="64" y="355" class="mono row r15">
+  <tspan fill="#9ca3af">    </tspan><tspan fill="#e879f9">north_star</tspan><tspan fill="#9ca3af"> = </tspan><tspan fill="#f472b6">"Photograph the entire Messier catalogue"</tspan>
+</text>
+
+<!-- L16:    ritual     = "Forest walk → telescope → code → repeat" -->
+<text x="64" y="375" class="mono row r16">
+  <tspan fill="#9ca3af">    </tspan><tspan fill="#e879f9">ritual</tspan><tspan fill="#9ca3af">     = </tspan><tspan fill="#f472b6">"Forest walk → telescope → code → repeat"</tspan>
+</text>
+
+<!-- L17: blank then def -->
+<!-- L17:    def transmit(self): -->
+<text x="64" y="415" class="mono row r17">
+  <tspan fill="#9ca3af">    </tspan><tspan fill="#c084fc">def </tspan><tspan fill="#4ade80">transmit</tspan><tspan fill="#9ca3af">(</tspan><tspan fill="#67e8f9">self</tspan><tspan fill="#9ca3af">):</tspan>
+</text>
+
+<!-- L18:        print("Signal locked. Welcome to the Observatory.") -->
+<text x="64" y="435" class="mono row r18">
+  <tspan fill="#9ca3af">        </tspan><tspan fill="#4ade80">print</tspan><tspan fill="#9ca3af">(</tspan><tspan fill="#f472b6">"Signal locked. Welcome to the Observatory."</tspan><tspan fill="#9ca3af">)</tspan>
+</text>
+
+<!-- L19: ShucheeraPrasad().transmit() + cursor -->
+<text x="64" y="475" class="mono row r19">
+  <tspan fill="#67e8f9">ShucheeraPrasad</tspan><tspan fill="#9ca3af">().</tspan><tspan fill="#4ade80">transmit</tspan><tspan fill="#9ca3af">()</tspan>
+  <tspan class="cursor" fill="#ec4899">▋</tspan>
+</text>
+
+</svg>
