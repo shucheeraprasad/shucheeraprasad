@@ -9,23 +9,13 @@
 
 ---
 
-<div align="center">
+## 👋 Signal Received.
 
-```
-         · · ✦ · · ·  S I G N A L  R E C E I V E D  · · · ✦ · · ·
+I'm **Shucheera Prasad** — a Forest Astronomer living somewhere between the pine trees and the Pleiades.
+By day I write code; by night I point a telescope at things older than the Sun.
+Currently building a **wide-field astronomical imager** to photograph the entire Messier catalogue, one dark-sky site at a time.
 
-    ✧          ✦                   ✧                  ✦          ✧
-         ✦           ·    ✧    ·        ·    ✦    ·         ✦
-    ·         ✧             ·      ✦         ·      ✧            ·
-         ✦        ORION · · · CASSIOPEIA · · · ANDROMEDA
-    ✧         ·        ✦           ·       ✧        ·        ✦
-══════════════════════════════════════════════════════════════════
-  🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲
-  🌲🌲🌲🌲🌲🌲🌲  🏔️  T H E  O B S E R V A T O R Y  🏔️  🌲🌲🌲🌲🌲🌲🌲
-══════════════════════════════════════════════════════════════════
-```
-
-</div>
+> *"The cosmos is within us. We are made of star-stuff."* — Carl Sagan
 
 ---
 
@@ -56,20 +46,6 @@
 ## ✦ Stellar Coordinates — Skills
 
 <div align="center">
-
-```
-   PYTHON        JAVASCRIPT      JAVA          OPENCV
-     ★               ✦             ◈              ✧
-     |╲             /|╲           /|             /|
-     | ╲           / | ╲         / |            / |
-   REST  ╲    Three  |  Git    Linux           CV  |
-    API    ╲   .js   |         ★              ✧
-     ◈      ╲  ✦     ◈
-           GitHub   VSCode
-             ★        ✦
-```
-
-<br/>
 
 <img src="https://skillicons.dev/icons?i=python,js,java,threejs,opencv,git,github,linux,vscode,bash&theme=dark&perline=10"/>
 
@@ -161,10 +137,6 @@
 **We are made of star-stuff. We are a way for the cosmos to know itself."***
 
 *— Carl Sagan*
-
-```
-  ✦ · · · 🌸 · · · ✧ · · · 🌙 · · · ✦ · · · 🌸 · · · ✧ · · · ✦
-```
 
 </div>
 
